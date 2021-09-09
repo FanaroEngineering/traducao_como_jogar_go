@@ -14,7 +14,9 @@
 
 \usepackage{indentfirst}
 
+\usepackage[nottoc,numbib]{tocbibind}
 \addto\captionsportuguese{
+  \renewcommand{\bibname}{Referências}
   \renewcommand{\contentsname}{Índice}
 }
 \usepackage{shorttoc}
@@ -25,26 +27,24 @@
 \date{}
 
 \begin{document}
+    \maketitle
+    \shorttoc{Índice Resumido}{0}
+    \tableofcontents
 
-\maketitle
-\shorttoc{Índice Resumido}{0}
-\tableofcontents{Índice}
+    \frontmatter
+    \input{Capítulos/Pre_Prefácio}
+    \input{Capítulos/Pre_Nota_do_Tradutor}
+    \input{Capítulos/Pre_Glossário}
 
-\frontmatter
-\input{Capítulos/Pre_Prefácio}
-\input{Capítulos/Pre_Nota_do_Tradutor}
-\input{Capítulos/Pre_Glossário}
+    \mainmatter
+    \input{Capítulos/1_Equipamento}
+    \input{Capítulos/2_Regras}
+    \input{Capítulos/3_Ko}
+    \input{Capítulos/4_Fim_do_Jogo}
+    \input{Capítulos/5_Partidas_Exemplo}
+    \input{Capítulos/6_Estratégia_de_Abertura}
 
-\mainmatter
-\input{Capítulos/1_Equipamento}
-\input{Capítulos/2_Regras}
-\input{Capítulos/3_Ko}
-\input{Capítulos/4_Fim_do_Jogo}
-\input{Capítulos/5_Partidas_Exemplo}
-\input{Capítulos/6_Estratégia_de_Abertura}
-
-\newpage
-\bibliographystyle{plain}
-\bibliography{bibliografia}
-
+    \backmatter
+    \bibliographystyle{plain}
+    \bibliography{bibliografia}
 \end{document}
