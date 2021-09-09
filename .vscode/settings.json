@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.aux": true,
+        "**/*.dvi": true,
+        "**/*.log": true,
+        "**/*.out": true,
+        "**/*.pdf": true,
+        "**/*.ps": true,
+        "**/*.synctex.gz": true,
+        "**/*.toc": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+    }
+}

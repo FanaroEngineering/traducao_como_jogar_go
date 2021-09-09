@@ -1,0 +1,14 @@
+# Arquivos Auxiliares LaTeX
+**/*.aux
+**/*.dvi
+**/*.log
+**/*.out
+**/*.pdf
+**/*.ps
+**/*.synctex.gz
+**/*.toc
+**/*.bbl
+**/*.blg
+
+# Mac
+**/.DS_Store

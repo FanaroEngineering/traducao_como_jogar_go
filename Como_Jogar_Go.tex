@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{book}
+
+\usepackage[portuguese]{babel}
+
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+
+\usepackage{enumitem}
+\setitemize{fullwidth}
+\setenumerate{wide}
+
+\usepackage{longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage{indentfirst}
+
+\addto\captionsportuguese{
+  \renewcommand{\contentsname}{Índice}
+}
+\usepackage{shorttoc}
+
+\title{Como Jogar Go: Uma Introdução Concisa}
+\author{Richard Bozulich e James Davies\\[1ex] 
+\small{traduzido por Philippe Fanaro}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\shorttoc{Índice Resumido}{0}
+\tableofcontents{Índice}
+
+\frontmatter
+\input{Capítulos/Pre_Prefácio}
+\input{Capítulos/Pre_Nota_do_Tradutor}
+\input{Capítulos/Pre_Glossário}
+
+\mainmatter
+\input{Capítulos/1_Equipamento}
+\input{Capítulos/2_Regras}
+\input{Capítulos/3_Ko}
+\input{Capítulos/4_Fim_do_Jogo}
+\input{Capítulos/5_Partidas_Exemplo}
+\input{Capítulos/6_Estratégia_de_Abertura}
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\end{document}
