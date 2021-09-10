@@ -2,3 +2,125 @@
 
 \section{Escadas}
 
+Escadas constituem uma das técnicas mais básicas de captura. Elas também são mais do que uma técnica local, dado que requerem um consciência das condições no resto do tabuleiro.
+
+\emph{Dia. 1.} A pedra preta marcada está cortando Branco em dois grupos, então Branco gostaria de capturá-la. Como ele poderia fazê-lo?
+
+\emph{Dia. 2.} Ele começa pelo atari em 1.
+
+\emph{Dia. 3.} Se Preto tentar escapar, Branco continua com os ataris de 3 a 11 até onde Preto esgota suas possibilidades. Se Preto \textbf{A}, Preto ainda estará sob atari, então Branco poderá ignorar tal jogada. Assim que as pedras brancas entrarem em perigo, Branco poderá capturar em \textbf{B}. Esse tipo de sequência, na qual o inimigo é mantido sob atari e dirigido à borda do tabuleiro, onde ele esgota suas liberdades, é chamado de escada.
+
+\emph{Dia. 4.} Aqui está a mesma escada em um tabuleiro maior. São precisos mais movimentos, mas, similarmente, Preto não consegue escapar.
+
+\emph{Dia. 5.} Preto possui a pedra triangulada no caminho da escada. O que acontece se Branco tentar capturar a pedra circulada com 1?
+
+\emph{Dia. 6.} Preto foge com 2. Branco faz atari com 3 a 11, mas, após 12, Preto se conecta com a pedra marcada, ganhando uma liberdade extra. Se Branco continua como anteriormente, Preto agora possui liberdades extras e terá tempo de jogar um duplo-atari em 14. Se Branco conectar com 15, Preto captura uma pedra com 16, colocando outra pedra sob atari. Branco defende com 17, mas Preto pode jogar outro duplo-atari com 18, do outro lado.
+
+Em suma, se Preto possui uma pedra dentro ou em cima do caminho definido pelos pontos \textbf{X} no \emph{Dia. 5}, a escada não será bem sucedida.
+
+Para uma prática adicional sobre escadas, aqui estão quatro problemas.
+
+\subsection{Problemas 31 a 34}
+
+\subsection{Respostas aos Problemas 31 a 34}
+
+\begin{itemize}
+    \item[\textbf{Resposta ao Problema 31}] Preto pode capturar as pedras brancas em uma escada com 1 e 3 no \emph{Dia. 1}. Depois de Branco 4, Preto direciona as pedras brancas à borda do tabuleiro com 5. Após Preto 7, não há mais nenhuma maneira de Branco evitar ser capturado.
+    
+        Preto 1 no \emph{Dia. 2} não configura uma escada, então Branco pode aumentar suas liberdades descendo para 2. As pedras brancas escapam.
+    \item[\textbf{Resposta ao Problema 32}] Branco deveria responder ao duplo-atari de Preto 1 capturando as dez pedras com 2. Isso seria uma perda enorme para Preto.
+     
+        Se Branco responder Preto 1 no \emph{Dia. 2} tentando resgatar as duas pedras com 2, Preto captura com 3 e ameaça capturar a pedra marcada. Ele também ameaça capturar três pedras em uma escada jogando em \textbf{A}. Preto também possui múltiplas escolhas de duplos-ataris à esquerda, como \textbf{B}.
+    \item[\textbf{Resposta ao Problema 33}] Preto deveria dirigir Branco à borda do tabuleiro com o atari de 1 no \emph{Dia. 1}. Se Preto fizer atari de novo com 3, não há maneira de Branco sair do atari.
+
+        Jogar o atari na primeira linha com 1 no \emph{Dia. 2} é um erro. Branco vira com 2, colocando as pedras marcadas em atari. Preto é forçado a conectar com 3. Ao invés de 4, Branco também pode jogar os duplo-ataris em \textbf{A} e \textbf{B}.
+    \item[\textbf{Resposta ao Problema 34}] Preto deveria fazer primeiro atari pela esquerda com 1, então iniciar a escada com 3. A escada agora não colide com a pedra marcada.
+        
+        Se Preto imediatamente começar a escada com a sequência de 1 a 5 no \emph{Dia. 2}, devido à presença da pedra marcada, Branco 6 se torna atari na pedra preta em 3. Preto precisa defender conectando em \textbf{A} e, assim, Branco pode jogar \textbf{B}, e suas pedras se salvam.
+\end{itemize}
+
+\section{Redes}
+
+\emph{Dia. 7.} Novamente, Branco quer capturar a pedra marcada.
+
+\emph{Dia. 8.} Entretanto, a escada correria em uma pedra preta no canto superior esquerdo e colapsaria. Um jogador que tenta uma escada que não funciona, como esta, incorre perdas enormes pois é deixado com vários pontos de corte, como \textbf{A} e \textbf{B} nessa posição. Branco precisa jogar diferentemente.
+
+\emph{Dia. 9.} Nesta posição, Branco possui uma alternativa para capturar Preto --- é possível contê-lo com 1.
+
+\emph{Dia. 10.} Se Preto irrazoavelmente tentar escapar com 2 e 4, Branco capturará com 3 e 5.
+
+\emph{Dia. 11.} Este é outro exemplo de captura com uma rede. Branco pode capturar a pedra marcada jogando primeiro um atari com 1 e, então, enredando-o com 3.
+
+Aqui seguem quatro problemas para se praticar redes.
+
+\subsection{Problemas 35 a 38}
+
+\subsection{Respostas aos Problemas 35 a 38}
+
+\begin{itemize}
+    \item[\textbf{Resposta ao Problema 35}] Preto deveria enredar a pedra branca pulando com 1 no \emph{Dia. 1}. Branco não consegue escapar. Se ele jogar \textbf{A}, Preto bloqueia com \textbf{B}, colocando as pedras brancas em um atari do qual não há escapatória.
+
+        Se Preto fizer atari com 1 no \emph{Dia. 2}, Branco estenderá em 2. Preto tentará contê-lo com 3 a 7, mas Branco escapa para o centro com 8.
+    \item[\textbf{Resposta ao Problema 36}] Preto deveria jogar uma rede nas pedras brancas com 1 no \emph{Dia. 1}. Branco não escapará. Se Branco jogar 2, Preto bloqueia com 3, colocando as pedras brancas em um inescapável atari.
+    
+        Se Preto fizer atari com 1 no \emph{Dia. 1}, Branco estenderá para 2. Preto tenta contê-lo com 3 a 5, mas Branco escapa ao centro com 6.
+    \item[\textbf{Resposta ao Problema 37}] Preto deveria jogar a rede de 1 nas pedras brancas no \emph{Dia. 1}. Branco não tem para onde fugir. Se ele estender para 2, Preto bloqueará com 3, e as pedras brancas estará capturadas de qualquer maneira.
+    
+        Se Preto fizer atari com 1 no \emph{Dia. 2}, Branco estende em 2. Preto tentará contê-lo com 3 a 5, mas Branco escapa ao centro com 6.
+    \item[\textbf{Resposta ao Problema 38}] Preto deveria enredar Branco com 1 no \emph{Dia. 1}. Branco não escapará. Se ele jogar \textbf{A}, Preto bloqueará em \textbf{B}, submetendo as pedras brancas a um atari sem escapatória.
+    
+        Se Preto fizer atari com 1 e 3 no \emph{Dia. 2}, Branco estende com 2 e 4 e conecta suas pedras com aquelas à direita.
+\end{itemize}
+
+\section{Táticas de Sacrifício}
+
+Go abunda em termos de táticas de sacrifício que levam a capturas de pedras adversárias. Aqui seguem alguns exemplos.
+
+\emph{Dia. 12.} Branco possui uma maneira de capturar as duas pedras marcadas, o que propiciará a conexão das quatro pedras no canto com aquelas isoladas no exterior.
+
+\emph{Dia. 13.} Branco inicia o sacrifício com 1, colocando as duas pedras sob atari. Preto poderá capturar com 2.
+
+\emph{Dia. 14.} Esse é o resultado. As três pedras marcadas estão em atari, então\ldots
+
+\emph{Dia. 15.} Preto as captura com 3. Esse padrão, no qual um dos lados captura, e o outro recaptura, é denominado de \emph{ricochete}\footnote{Em inglês, o termo já é muito sedimentado, e é na verdade chamado de \emph{snapback}.}.
+
+\emph{Dia. 16.} Como é que Preto poderia capturar as pedras brancas?
+
+\emph{Dia. 17.} Se Preto simplesmente fizer atari com 1, Branco conectará com 2. Se Preto cortar com 3, Branco fará atari com 4, e as pedras brancas não poderão ser capturadas.
+
+\emph{Dia. 18.} Se Preto quiser capturar algumas pedras, ele terá de sacrificar uma com 1. Se Branco capturar com 2\ldots
+
+\emph{Dia. 19.} Preto faz atari com 3. Se Branco conecta com 4, Preto corta com 5, colocand as nove pedras Brancas em atari. Branco não consegue evitar de ser capturado no próximo movimento. Ao invés de Branco 4\ldots
+
+\emph{Dia. 20.} Já que Branco não pode evitar de perder quatro pedras, ele não deveria defendê-las. Em seu lugar, ele deveria jogar jogar 4 em outro lugar. Quando Preto capturar com 5\ldots
+
+\emph{Dia. 21.} Branco pode recapturar uma pedra com 6, desta maneira, limitando sua perda.
+
+\subsection{Problemas 39 a 46}
+
+\subsection{Respostas aos Problemas 39 a 46}
+
+\begin{itemize}
+    \item[\textbf{Resposta ao Problema 39}] Preto deveria fazer atari nas duas pedras com 1 no \emph{Dia. 1}. Se Branco responder capturando a pedra marcada em \textbf{A}, Preto responderá jogando na pedra marcada e capturando três pedras.
+    
+        Se Preto defender a pedra em atari conectando em 1 no \emph{Dia. 2}, Branco conectará, e Preto não estará apto a capturar nenhuma pedra.
+    \item[\textbf{Resposta ao Problema 40}] Preto deveria sacrificar uma pedra com 1 no \emph{Dia. 1}. Se Branco capturar em \textbf{A}, ele ainda estará sob atari, portanto Preto jogará de volta em 1, e capturará quatro pedras.
+    
+        Conectar com Preto 1 no \emph{Dia. 2} oferece a oportunidade de Branco consertar seu defeito em sua forma através da conexão em 2.
+    \item[\textbf{Resposta ao Problema 41}] Preto deveria sacrificar uma pedra em 1 no \emph{Dia. 1}. Se Branco capturar em \textbf{A}, ele ainda estará sob atari, então Preto jogará de volta em 1 e capturará quatro pedras.
+    
+        Se Preto fizer atari com 1 no \emph{Dia. 2}, Branco conectará em 2, e Preto não conseguirá capturar nenhuma pedra.
+    \item[\textbf{Resposta ao Problema 42}] Preto deveria sacrificar uma pedra com 1 no \emph{Dia. 1}. Se Branco capturar em \textbf{A}, ele ainda estará sob atari, e Preto jogará em para capturar as 4 pedras.
+    
+        Se Preto capturar uma pedra com 1 no \emph{Dia. 2}, Branco conectará em 2. Agora, as quatro pedras marcadas não têm como escapar e serão capturadas.
+    \item[\textbf{Resposta ao Problema 43}] Nenhum sacrifício é necessário. Preto deveria simplesmente fazer atari com 1 no \emph{Dia. 1}. Se Branco conectar em \textbf{A}, Preto capturará cinco pedras jogando em \textbf{B}. Se Branco conectar em \textbf{B}, Preto \textbf{A} capturará três pedras.
+    
+        Sacrificar uma pedra em 1 no \emph{Dia. 2} é um erro. Após os movimentos até Preto 5, Branco conectará em 1, e todas as suas pedras estarão seguras. Este exemplo demonstra que sacrifícios nem sempre funcionam.
+    \item[\textbf{Resposta ao Problema 44}] Preto deveria fazer atari com 1 no \emph{Dia. 1}, sacrificando a pedra marcada. Se Branco capturar com 2, ele ainda estará em atari, então Preto jogará de volta onde a pedra marcada estava e capturará as sete pedras.
+    
+        Preto 1 no \emph{Dia. 1} também é atari, mas as pedras pretas possuem uma escassez de liberdades, então Branco conseguirá capturar três pedras com 2, e suas seis pedras estarão seguras.
+    \item[\textbf{Resposta ao Problema 45}] Se Preto jogar 1 no \emph{Dia. 1}, Branco não consegue escapar do atari, já que possui falta de liberdades. Se ele conectar em \textbf{A}, Preto capturará as oito pedras jogando em \textbf{B}. Se Branco conectar em \textbf{B}, Preto capturará seis pedras jogando em \textbf{A}.
+    \item[\textbf{Resposta ao Problema 46}] Se preto sacrificar em 1 no \emph{Dia. 1}, Branco precisará capturar em 2. Preto agora faz atari com 3. Se Branco conectar em 1, Preto captura seis pedras jogando em \textbf{A}. Se Branco conectar em \textbf{A}, Preto captura quatro pedras jogando em 1.
+    
+        Se Preto jogar qualquer outro movimento, em 1 no \emph{Dia. 2} por exemplo, Branco conectará em 2. Se Preto agora jogar em \textbf{A}, Branco conectará em \textbf{B}, e suas pedras estarão seguras. Entretanto, as pedras pretas ainda estão separadas.
+\end{itemize}
