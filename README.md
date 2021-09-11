@@ -18,7 +18,7 @@ No livro, são citados links para recursos muito úteis para quem está começan
 
 Juntamente com este repositório, inclui-se algumas configurações do editor VS Code, pois é um editor que todos podem instalar e facilmente utilizar, além de ser um bom quebra-galho caso outros não funcionem &mdash; e uma maneira de padronizar o trabalho no projetinho.
 
-Se você não gosta do VS Code &mdash; eu, particularmente, prefiro Vim &mdash;, sem problemas, é só ignorar a pasta `.vscode`.
+Se você não gosta do VS Code &mdash; eu, particularmente, prefiro Vim &mdash;, sem problemas, é só ignorar a pasta [`.vscode`](./.vscode/).
 
 Se você estiver utilizando VS Code, sugiro instalar a extensão [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), que automatiza grande parte do que é necessário para projetos em LaTeX. Se vocês estivar utilizando sistemas com Shell disponível, há o script [`build.sh`](./build.sh).
 
