@@ -8,6 +8,8 @@ No livro, são citados links para recursos muito úteis para quem está começan
 
 - [OGS](https://online-go.com)
 - [KGS](https://www.gokgs.com)
+- [Go Books para iOS](https://apps.apple.com/us/app/go-books/id428149193)
+- [SmartGo, aplicativo para iOS](https://apps.apple.com/us/app/smartgo-player/id314506629)
 - [Go Write 2](https://www.gowrite.net/GOWrite2_download.html)
 - [Editora Kiseido](https://www.kiseido.com)
 - [fanaro.io](https://fanaro.io)
