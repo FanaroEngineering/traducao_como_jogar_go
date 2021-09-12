@@ -57,7 +57,16 @@
     \input{Capítulos/8_Vida_e_Morte}
     \input{Capítulos/9_Estratégia_de_Go_com_Compensação}
 
+    \appendix
+
+    % Veja esta resposta para mais informações: 
+    % https://tex.stackexchange.com/a/357155/64441
+    \addtocontents{toc}{\bigskip\medskip\noindent
+    \textbf{Apêndice: Livros de Go Publicados pela Editora Kiseido}\par}
+
+    \input{Capítulos/Apêndice}
+
     \backmatter
-    \bibliographystyle{plain}
+    \bibliographystyle{unsrt}
     \bibliography{bibliografia}
 \end{document}
