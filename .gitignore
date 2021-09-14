@@ -18,6 +18,7 @@ igo.sty
 repeat.tex
 makefonts.bat
 russian/
+!Documentacao/igo.pdf
 
 # Mac
 **/.DS_Store
