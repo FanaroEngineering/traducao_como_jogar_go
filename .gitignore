@@ -10,5 +10,14 @@
 **/*.bbl
 **/*.blg
 
+# Pacote igo de Diagramas
+*.mf
+*.tfm
+*.600pk
+igo.sty
+repeat.tex
+makefonts.bat
+russian/
+
 # Mac
 **/.DS_Store

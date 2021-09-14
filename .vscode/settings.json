@@ -12,5 +12,12 @@
         "**/*.toc": true,
         "**/*.bbl": true,
         "**/*.blg": true,
+        "**/*.mf": true,
+        "**/*.tfm": true,
+        "**/*.600pk": true,
+        "**/igo.sty": true,
+        "**/repeat.tex": true,
+        "**/makefonts.bat": true,
+        "russian/": true,
     }
 }
