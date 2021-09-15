@@ -1,5 +1,9 @@
 \documentclass[12pt,a4paper]{book}
 
+\raggedbottom
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[portuguese]{babel}
 
 \usepackage[math-style=ISO]{unicode-math}
@@ -65,10 +69,7 @@
 
     \appendix
 
-    % Veja esta resposta para mais informações: 
-    % https://tex.stackexchange.com/a/357155/64441
-    \addtocontents{toc}{\bigskip\medskip\noindent
-    \textbf{Apêndice: Livros de Go Publicados pela Editora Kiseido}\par}
+    \addtocontents{toc}{\bigskip\medskip\noindent\textbf{Apêndice}\par}
 
     \input{Conteudo/Apendice_Catalogo_EN}
     \input{Conteudo/Apendice_Catalogo_PT}
