@@ -33,3 +33,19 @@ bibtex <arquivo-tex-principal>.aux
 ```
 
 Note que não se utiliza o nome do arquivo `.bib`. Para mais informações, veja [esta resposta](https://tex.stackexchange.com/a/353433/64441).
+
+## Inclusão de Diagramas de Go
+
+### Diagramas com o Pacote LaTeX `igo`
+
+Para instalar o pacote [`igo`](https://www.ctan.org/pkg/igo) manualmente, baixe-o e depois extraia todos os arquivos para o mesmo nível do arquivo principal. Também será preciso extrair todas as fontes para o nível principal &mdash; caso ainda haja dificuldades, veja [esta pergunta](https://tex.stackexchange.com/q/615371/64441) no TeX StackExchange. Esse arquivos não poluirão o projeto nem o editor, dado que o [`.gitignore`](./.gitignore) já foi configurado &mdash; e o VS Code também, pelo menos.
+
+Uma vez instalado, é só seguir a documentação, dentro da pasta [`Documentacao/`](./Documentacao).
+
+Caso você esteja utilizando a distribuição MiKTeX, nem sequer é preciso instalar o `igo`, ele já está incluído.
+
+Há também o pacote [`psgo`](https://www.ctan.org/pkg/psgo), mas é bem mais complicado e de difícil compilação.
+
+### Diagramas com o Go Write 2
+
+O [GoWrite2](https://gowrite.net/GOWrite2.html) é aparentemente o software predileto dos escritores de livros de Go, visto que é mais visual e integrado aos arquivos SGFs. Porém, até onde sei, seus diagramas são exportados em PNGs, ou seja, haverá pixelação, inevitavelmente.
