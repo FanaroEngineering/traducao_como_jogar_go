@@ -1,11 +1,1 @@
-
-(;AP[GOWrite:3.0.18]SZ[11]FF[4]ST[0]GM[1]CA[UTF-8]GN[ ]PW[ ]DT[2021-09-02]FG[259:]KM[6.5]PM[2]AW[ff][ge][he]AB[fe][ef][gf]PB[ ]
-(
-;N[Dia 1]LB[fg:1]AW[ff][ge][he]AB[fe][fg][ef][gf]
-)
-(
-;B[hf]
-;N[Dia 2]W[fg]LB[fg:2][hf:1]
-)
-
-)
+(;AP[Sabaki:0.52.0]SZ[11]FF[4]ST[0]GM[1]CA[UTF-8]GN[ ]PW[ ]DT[2021-09-02]FG[259:]KM[6.5]PM[2]AW[ff][ge][he]AB[fe][ef][gf]PB[ ](;N[Dia 1]LB[fg:1]AW[ff][ge][he]AB[fe][fg][ef][gf])(;B[hf];N[Dia 2]W[fg]LB[fg:2][hf:1];PL[B]AE[fi]LB[fg:2][hf:1]))
