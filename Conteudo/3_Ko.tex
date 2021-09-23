@@ -4,20 +4,20 @@
   \item[\textbf{Regra 7}] Nenhuma posição de tabuleiro pode ser recriada.
 \end{itemize}
 
-Esta regra requer que todo movimente cria uma nova posição no tabuleiro. Sua principal função é prevenir ciclos infinitos de captura e recaptura em posições de ko como a exibida no \emph{Dia. 25}.
+Esta regra requer que todo movimente cria uma nova posição no tabuleiro. Sua principal função é prevenir ciclos infinitos de captura e recaptura em posições de ko como a exibida no \emph{Dia.\@~25}.
 
 % TODO: Adicionar a origem do ko?
 
-Na posição do \emph{Dia. 25}, suponha que seja o turno branco. Ele pode capturar uma pedra preta jogando em 1 no \emph{Dia. 26}. O resultado é mostrado no \emph{Dia. 27}.
+Na posição do \emph{Dia.\@~25}, suponha que seja o turno branco. Ele pode capturar uma pedra preta jogando em 1 no \emph{Dia.\@~26}. O resultado é mostrado no \emph{Dia.\@~27}.
 
-Se Preto agora captura com 2 no \emph{Dia. 28}\ldots
+Se Preto agora captura com 2 no \emph{Dia.\@~28}\ldots
 
-A posição do \emph{Dia. 29} é o resultado. Mas essa é a mesma posição do \emph{Dia. 25}. Pela \emph{Regra 7}, isso não é permitido, então Preto precisa jogar em outro lugar. Por exemplo, ele poderia jogar 2 no \emph{Dia. 30}. Isso oferece a Branco a oportunidade de conectar em 3, resolvendo o ko.
+A posição do \emph{Dia.\@~29} é o resultado. Mas essa é a mesma posição do \emph{Dia.\@~25}. Pela \emph{Regra 7}, isso não é permitido, então Preto precisa jogar em outro lugar. Por exemplo, ele poderia jogar 2 no \emph{Dia.\@~30}. Isso oferece a Branco a oportunidade de conectar em 3, resolvendo o ko.
 
-No \emph{Dia. 31}, é o turno Branco a jogar. Uma luta de ko está prestes a acontecer no entorno da pedra preta marcada, que está em atari.
+No \emph{Dia.\@~31}, é o turno Branco a jogar. Uma luta de ko está prestes a acontecer no entorno da pedra preta marcada, que está em atari.
 
-Se Branco captura com 1 no \emph{Dia. 32}, Preto não pode imediatamente recapturar porque isso reverteria a posição de volta para o \emph{Dia. 31}, então ele jogará em outro lugar com Preto 2. Esse tipo de movimento é chamado de ameaça de ko.
+Se Branco captura com 1 no \emph{Dia.\@~32}, Preto não pode imediatamente recapturar porque isso reverteria a posição de volta para o \emph{Dia.\@~31}, então ele jogará em outro lugar com Preto 2. Esse tipo de movimento é chamado de ameaça de ko.
 
-Se Branco responde a essa ameaça com 3 no \emph{Dia. 33}, Preto pode recapturar com 4, pois a troca de Preto 2--Branco 3 faz com que a posição global do tabuleiro seja diferente do \emph{Dia. 31}. É agora a vez do Branco de encontrar uma ameaça de ko.
+Se Branco responde a essa ameaça com 3 no \emph{Dia.\@~33}, Preto pode recapturar com 4, pois a troca de Preto 2--Branco 3 faz com que a posição global do tabuleiro seja diferente do \emph{Dia.\@~31}. É agora a vez do Branco de encontrar uma ameaça de ko.
 
-Branco corta com 5 no \emph{Dia. 34}. Preto poderia ignorar Branco 5 e capturar três pedras em \textbf{A}, e assim  resolver o ko, mas vamos supor qu eele responderia Branco 5 com 6. Branco pode agora recapturar o ko com 7. Preto precisa fazer outra ameaça de ko com 8. Talvez Branco ignorará essa ameaça e capturará quatro pedras com 9, finalizando a briga pelo ko. Preto obtém certa compensação com 10.
+Branco corta com 5 no \emph{Dia.\@~34}. Preto poderia ignorar Branco 5 e capturar três pedras em \textbf{A}, e assim  resolver o ko, mas vamos supor qu eele responderia Branco 5 com 6. Branco pode agora recapturar o ko com 7. Preto precisa fazer outra ameaça de ko com 8. Talvez Branco ignorará essa ameaça e capturará quatro pedras com 9, finalizando a briga pelo ko. Preto obtém certa compensação com 10.
