@@ -6,11 +6,55 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
 
 \emph{Dia.\@~1} Isso pode ser chamado de abertura. Preto começa por tentar controlar o lado direito com 1 e 3, e Branco, controle do lado esquerdo com 2 e 4. Preto se dobra em volta de Branco com 5 e 7, e Branco resiste com 6 e 8.
 
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 1}
+      \caption*{\emph{Dia.\@~1. (1-8)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 2}
+      \caption*{\emph{Dia.\@~2. (9)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 3}
+      \caption*{\emph{Dia.\@~3. (10-11)}}
+  \end{subfigure}
+\end{figure}
+
 \emph{Dia.\@~2} Preto pressiona sua vantagem através do corte em 9. Isso põe as duas pedras marcadas em atari --- as pedras pretas estão ocupando todas as liberdades brancas exceto uma. Note que as pedras brancas marcadas não estão diretamente conectadas às outras pedras brancas.
 
 \emph{Dia.\@~3} Branco resgata suas duas pedras pela conexão com 10, e a pedra preta marcada agora está em atari. Preto ignora isso e joga 11, colocando a pedra branca em atari.
 
+\pagebreak
+
 \emph{Dia.\@~4} Branco escapa do atari descendo para 12. Preto conecta com 13 para prevenir que Branco corte ali. A pedra preta marcada ainda está sob atari. Entretanto, ela não pode escapar, então Branco não se importa em capturá-la e corta em 14, colocando outra pedra preta em atari.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 4}
+      \caption*{\emph{Dia.\@~4. (12-14)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 5}
+      \caption*{\emph{Dia.\@~5. (15-18)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 6}
+      \caption*{\emph{Dia.\@~6. (19-21)}}
+  \end{subfigure}
+\end{figure}
 
 \emph{Dia.\@~5} Preto joga um atari com 15 e Branco captura com 16, tomando um prisioneiro. Preto agora desce para 17, ameaçando jogar em 18 e desprivilegiar Branco de um ponto. Sendo assim, Branco precisa conectar em 18. Esse é o último movimento da partida e vale um ponto.
 
@@ -18,9 +62,26 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
 
 \emph{Dia.\@~7} Após Preto 21 no \emph{Dia.\@~6}, não há mais pontos a serem ganhos ou disputados, então Branco passa. Preto também passa. De acordo com a \emph{Regra 8}, o jogo termina.
 
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 4}
+      \caption*{\emph{Dia.\@~7. Partida finalizada}}
+  \end{subfigure}
+  \hspace{1cm}
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Dia 5}
+      \caption*{\emph{Dia.\@~8}}
+  \end{subfigure}
+\end{figure}
+
 \emph{Dia.\@~8} Branco possui dois prisioneiros, então ele os coloca no território preto --- as duas pedras marcadas. Os territórios são agora contados. Branco possui 6 pontos, e Preto, 9.
 
 \textbf{Preto vence por 3 pontos.}
+
+\pagebreak
 
 \section{Perguntas e Respostas}
 
@@ -29,6 +90,22 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
       Ao invés de 19 no \emph{Dia.\@~6}, será que Preto não poderia jogar atari em 2?
     \item[\textbf{Resposta}] 
       Se Preto fizer atari imediatamente com 1 em \emph{Dia.\@~9}, ele se colocaria em atari e perderia  duas pedras após a captura Branca com 2.
+
+    \begin{figure}[h!]
+      \centering
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 9}
+          \caption*{\emph{Dia.\@~9}}
+      \end{subfigure}
+      \hspace{1cm}
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 10}
+          \caption*{\emph{Dia.\@~10}}
+      \end{subfigure}
+    \end{figure}
+
     \item[\textbf{Pergunta}]
       Ao invés de capturar com 20 no \emph{Dia.\@~6}, será que Branco não poderia jogar no último ponto neutro em 21?
     \item[\textbf{Resposta}] 
@@ -37,8 +114,46 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
       Por que Branco passou no \emph{Dia.\@~7}? Por que ele não tenta invadir o território com 1 no \emph{Dia.\@~11}?
     \item[\textbf{Resposta}] 
       Não há regra que previna Branco de invadir. Mas ele percebe que seria de nenhuma utilidade. Preto responderia com 2 no \emph{Dia.\@~12}, colocando a pedra invasora em atari, e, quando Preto captura com 6, Branco perderia sua força invasora completamente.
+
+    \begin{figure}[h!]
+      \centering
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 11}
+          \caption*{\emph{Dia.\@~11}}
+      \end{subfigure}
+      \hspace{1cm}
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 12}
+          \caption*{\emph{Dia.\@~12}}
+      \end{subfigure}
+    \end{figure}
+
     \item[\textbf{Pergunta}]
       Se Branco continuar insistindo na invasão, ele não conseguirá, no final, ocupar todos os pontos dentro do grupo Preto e, assim, capturá-lo?
+
+    \begin{figure}[h!]
+      \centering
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 13}
+          \caption*{\emph{Dia.\@~13}}
+      \end{subfigure}
+      \hfill
+      \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 14}
+          \caption*{\emph{Dia.\@~14}}
+      \end{subfigure}
+      \hfill
+      \begin{subfigure}[t]{.3\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{5 - Dia 15}
+        \caption*{\emph{Dia.\@~15}}
+      \end{subfigure}
+    \end{figure}
+
     \item[\textbf{Resposta}] 
       Ele é bem-vindo para tentar, como no \emph{Dia.\@~13}, mas ele não será bem sucedido. Após Branco 7 e 9, Preto esmaga aquelas duas pedras com 10 --- Branco não pode conectar no ponto 1-1, já que seria suicídio, um movimento ilegal. Branco põe o grupo preto de 11 pedras em atari com 11 no \emph{Dia.\@~14} e Preto captura duas pedras com 14. No final, Branco esgota os possíveis pontos de invasão. A posição agora aparenta ser \emph{Dia.\@~15} e Preto ainda vence por 3 pontos. Lembre-se que as pedras brancas voltarão para o território Branco quando a partida for contabilizada. Branco pode tentar novamente em \textbf{A}, mas Preto capturará imediatamente com \textbf{B}.
       
@@ -48,20 +163,73 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
     \item[\textbf{Resposta}] 
       Ele precisa de dois, pelo menos. \emph{Dia.\@~16} mostra dois exemplos. Os dois grupos pretos estão vivos com dois olhos cada um. Na verdade, Branco não possui um movimento legal para atacar também. Branco, com seus dois grandes espaços de olhos, também está vivo. Preto pode jogar dentro do grupo branco, mas Branco pode facilmente capturar os invasores.
 
+      \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[t]{.3\textwidth}
+            \centering
+            \includegraphics[width=.9\textwidth]{5 - Dia 16}
+            \caption*{\emph{Dia.\@~16}}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[t]{.3\textwidth}
+            \centering
+            \includegraphics[width=.9\textwidth]{5 - Dia 17}
+            \caption*{\emph{Dia.\@~17}}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[t]{.3\textwidth}
+          \centering
+          \includegraphics[width=.9\textwidth]{5 - Dia 18}
+          \caption*{\emph{Dia.\@~18 Branco 3 em 1}}
+        \end{subfigure}
+      \end{figure}
+
       Você deveria também notar que os olhos precisam estar separados. O grupo preto no canto inferior esquerdo no \emph{Dia.\@~17} não está vivo, mas morto. Ele não consegue evitar de ser capturado. Talvez possa parecer que ele possui dois olhos, mas estes não separáveis ou distintos. Branco 1 no \emph{Dia.\@~18} coloca Preto em atari. Preto pode capturar com 2, mas Branco só joga novamente em 1 com 3, privando o grupo preto de sua última liberdade e, assim, capturando todas as cinco pedras pretas.
 
       Outra coisa sobre a qual se atentar é olho falso, como o que o grupo preto possui no canto superior direito do \emph{Dia.\@~18} em \textbf{A}. Esse grupo também está morto. Branco \textbf{A} captura as três pedras marcadas e põe as outras duas pedras sob atari.
     \item[\textbf{Pergunta}]
       Um grupo sempre precisa estar apto a criar dois olhos para estar vivo?
+
+      \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[t]{.3\textwidth}
+            \centering
+            \includegraphics[width=.9\textwidth]{5 - Dia 19}
+            \caption*{\emph{Dia.\@~19}}
+        \end{subfigure}
+      \end{figure}
     \item[\textbf{Resposta}] 
       Geralmente, mas há exceções. No \emph{Dia.\@~19}, o grupo preto marcado e o grupo branco não possuem nenhum olho, mas ambos compartilham liberdades. Nenhum dos lados pode atacar o outro jogando \textbf{A} ou \textbf{B} sem se colocar em atari, então nenhum dos lados deveria jogar nessa região, ou seja, ambos os grupos estão vivos. Este tipo de impasse local é chamado de \emph{seki}. Os pontos vazios entre as pedras marcadas não contam como território para nenhum dos lados.
 
       Há outro seki no canto inferior esquerdo do \emph{Dia.\@~19}. O grupo preto de três pedras e o grupo branco cercando-o ambos possuem um olho só e nenhum deles pode ocupar o ponto \textbf{C} entre eles sem se colocar sob atari. (O ponto \textbf{C} também não é território.)
 \end{itemize}
 
+\pagebreak
+
 \section{Partida-Exemplo em um Tabuleiro \texorpdfstring{9$\times$9}{9x9}}
 
 \emph{Dia.\@~1} A boa estratégia dita que movimentos de abertura sejam feitos na terceira linha ou acima, em relação às bordas do tabuleiro. Nesse caso, Preto 1 e Branco 2 são jogados nas quartas linhas.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 1}
+      \caption*{\emph{Dia.\@~1 (1-8)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 2}
+      \caption*{\emph{Dia.\@~2 (9-16)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+    \centering
+    \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 3}
+    \caption*{\emph{Dia.\@~3 (17-23)}}
+  \end{subfigure}
+\end{figure}
 
 \emph{Dia.\@~2} Preto 11 faz atari na pedra branca, então Branco conecta em 12. Tendo construído um grupo vivo à direita, Branco invade o lado esquerdo com 14 e inicia a construção de outro grupo vivo à esquerda com 16.
 
@@ -69,9 +237,47 @@ A partida a seguir ilustra jogadas perfeitas em um tabuleiro 6x6, o menor tamanh
 
 \emph{Dia.\@~4} Branco detém a intrusão preta ao lado esquerdo com 24 e 26. As jogadas começam, a partir de agora, a focar nas bordas do tabuleiro.
 
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 4}
+      \caption*{\emph{Dia.\@~4 (24-34)}}
+  \end{subfigure}
+  \hspace{1cm}
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 5}
+      \caption*{\emph{Dia.\@~5 (35-41)}}
+  \end{subfigure}
+\end{figure}
+
 \emph{Dia.\@~5} O fim de jogo continua com Preto 35 até o atari de Branco 40.
 
+\pagebreak
+
 \emph{Dia.\@~6} Branco 50 é um sacrifício que, mais tarde, forçará Preto a conectar em 55. No final da partida, Branco perdeu um prisioneiro --- a pedra em 50 --- e Preto 53 é uma pedra morta.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 6}
+      \caption*{\emph{Dia.\@~6 (42-57)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+      \centering
+      \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 7}
+      \caption*{\emph{Dia.\@~2 Prisioneiros}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{.3\textwidth}
+    \centering
+    \includegraphics[width=.9\textwidth]{5 - Game 2 - Dia 8}
+    \caption*{\emph{Dia.\@~8 Rearranjo}}
+  \end{subfigure}
+\end{figure}
 
 \emph{Dia.\@~7} O prisioneiro branco é substituído dentro do território Branco, e a pedra preta morta --- 53 no \emph{Dia.\@~6} --- é removida e preenche o interior do território preto. Essas pedras são indicadas pelas pedras marcadas.
 

@@ -2,6 +2,8 @@
 
 > Obrigado ao Richard Bozulich por me permitir traduzir este livro.
 
+<!-- TODO: TOC -->
+
 ## Links
 
 No livro, são citados links para recursos muito úteis para quem está começando. Para facilitar a referência, aqui estão eles &mdash; não se esqueça de utilizar a página de [issues](https://github.com/FanaroEngineering/traducao_como_jogar_go) para sugestões de adições &mdash;:
@@ -47,5 +49,7 @@ Caso você esteja utilizando a distribuição MiKTeX, nem sequer é preciso inst
 Há também o pacote [`psgo`](https://www.ctan.org/pkg/psgo), mas é bem mais complicado e de difícil compilação.
 
 ### Diagramas com o Go Write 2
+
+<!-- TODO: GoWrite é na verdade o que será utilizado, e ele possui suporte para imagens vetoriais. -->
 
 O [GoWrite2](https://gowrite.net/GOWrite2.html) é aparentemente o software predileto dos escritores de livros de Go, visto que é mais visual e integrado aos arquivos SGFs. Porém, até onde sei, seus diagramas são exportados em PNGs, ou seja, haverá pixelação, inevitavelmente.
