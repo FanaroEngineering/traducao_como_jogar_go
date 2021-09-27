@@ -6,8 +6,6 @@
         "**/*.dvi": true,
         "**/*.log": true,
         "**/*.out": true,
-        "*.pdf": true,
-        "Documentacao/igo.pdf": false,
         "**/*.ps": true,
         "**/*.synctex.gz": true,
         "**/*.toc": true,
