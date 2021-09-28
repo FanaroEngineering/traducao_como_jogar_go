@@ -1,5 +1,8 @@
 \documentclass[12pt,a4paper]{book}
 
+%-------------------------------------------------------------------------------
+% Packages
+
 \usepackage{a4wide}
 \raggedbottom
 
@@ -21,6 +24,7 @@
   {./Diagramas/7/}
   {./Diagramas/8/}
   {./Diagramas/9/}
+  {./Diagramas/10/}
 }
 \usepackage{subcaption}
 \usepackage{wrapfig}
@@ -54,10 +58,18 @@
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \pagenumbering{gobble}
 
+\usepackage[bottom]{footmisc}
+
+%-------------------------------------------------------------------------------
+% Metadata
+
 \title{Como Jogar Go: Uma Introdução Concisa}
 \author{Richard Bozulich e James Davies\\[1ex] 
         \small{traduzido por Philippe Fanaro}}
 \date{}
+
+%-------------------------------------------------------------------------------
+% Content
 
 \begin{document}
     \maketitle
