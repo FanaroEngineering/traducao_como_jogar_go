@@ -2,7 +2,19 @@
 
 > Obrigado ao Richard Bozulich por me permitir traduzir este livro.
 
-<!-- TODO: TOC -->
+<div id="user-content-toc">
+  <ul>
+    <li><a href="1-links-uteis">1. Links Úteis</a></li>
+    <li><a href="2-configuracoes-do-vs-code">2. Configurações do VS Code</a></li>
+    <li><a href="3-transpilacao-das-referencias">3. Transpilação das Referências</a></li>
+    <li><a href="4-inclusao-de-diagramas-de-go">4. Inclusão de Diagramas de Go</a>
+      <ul>
+        <li><a href="41-diagramas-com-o-gowrite2">4.1. Diagramas com o GoWrite2</a></li>
+        <li><a href="42-diagramas-com-o-pacote-latex-igo">4.2. Diagramas com o Pacote LaTeX <code>igo</code></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 ## 1. Links Úteis
 
