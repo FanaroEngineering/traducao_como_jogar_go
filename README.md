@@ -2,6 +2,8 @@
 
 > Obrigado ao Richard Bozulich por me permitir traduzir este livro.
 
+**Índice**
+
 <div id="user-content-toc">
   <ul>
     <li><a href="1-links-uteis">1. Links Úteis</a></li>
