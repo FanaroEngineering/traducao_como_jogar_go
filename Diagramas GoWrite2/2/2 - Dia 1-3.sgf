@@ -1,0 +1,21 @@
+
+(;SZ[9]FF[4]AP[GOWrite:3.0.20]CA[UTF-8]ST[2]GM[1]PW[ ]GN[ ]PM[2]FG[259:]PB[ ]
+;B[gc]
+(
+;GOWRITEFG[includePastCount:1][exportFile:2 - Dia 1]PM[2]FG[259:2 - Dia 1]
+;
+)
+(
+;W[cf]
+;GOWRITEFG[includePastCount:1][exportFile:2 - Dia 2]PM[2]FG[259:2 - Dia 2]
+(
+;
+)
+(
+;B[fg];W[fe]
+;GOWRITEFG[includePastCount:2][exportFile:2 - Dia 3]PM[2]FG[259:2 - Dia 3]
+)
+
+)
+
+)
