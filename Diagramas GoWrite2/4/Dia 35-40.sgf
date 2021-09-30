@@ -1,0 +1,15 @@
+
+(;SZ[9]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]GOWRITEFG[exportFile:Dia 35]PB[ ]AB[ba][bb][cb][cc][dc][eb][fc][gb][ga][fa][hb][fd][fe][ee][de][df][cf][dg][eg][fg][gf][hg][ig][gh][gi][fh]PM[2]FG[259:Dia 35]AW[ha][ia][ib][ic][hc][gc][gd][id][he][hf][if][fi][ei][eh][dh][ci][cg][bg][ag][ai][bf][be][ce][dd][ed][cd][bc][ad][ab]
+(
+;
+;PM[2]FG[259:Dia 37]AB[ec][aa]GOWRITEFG[exportFile:Dia 37]AW[ge][ac]
+;MA[ih][hh][hi][ii][gg][ff][ef][fb][ea][db][da][ca]PM[2]FG[259:Dia 38]GOWRITEFG[exportFile:Dia 38]AW[ge]
+;MA[di][ch][bi][bh][ah][af][ae][bd][hd][ie]PM[2]FG[259:Dia 39]GOWRITEFG[exportFile:Dia 39]AW[ge]
+;PM[2]TR[ae][af][hd][ie][ca][da][ea][db][fb][ff][ef]FG[259:Dia 40]AB[ff][ef][fb][ea][db][da][ca]GOWRITEFG[exportFile:Dia 40]AW[ge][ie][hd][ae][af]
+)
+(
+;PM[2]TR[hh]FG[259:Dia 36]GOWRITEFG[exportFile:Dia 36]
+;B[aa];W[ac];B[ec];W[ge]
+)
+
+)

@@ -1,0 +1,31 @@
+
+(;SZ[19]FF[4]AP[GOWrite:3.0.20]CA[UTF-8]ST[2]GM[1]PW[ ]GN[ ]PM[2]FG[259:]PB[ ]
+(
+;
+)
+(
+;PM[2]FG[259:Dia 1]VW[na:sf]GOWRITEFG[exportFile:Dia 1]
+;B[qc]
+)
+
+(
+;PM[2]FG[259:Dia 2]VW[na:sg]GOWRITEFG[exportFile:Dia 2]
+;B[pd];
+)
+
+(
+;PM[2]FG[259:Dia 3]VW[na:sg]GOWRITEFG[exportFile:Dia 3]
+;B[qd];
+)
+
+(
+;PM[2]FG[259:Dia 4]VW[na:sg]GOWRITEFG[exportFile:Dia 4]
+;B[qe];
+)
+
+(
+;PM[2]FG[259:Dia 5]VW[na:sg]GOWRITEFG[exportFile:Dia 5]
+;B[pe];
+)
+
+)
