@@ -1,5 +1,5 @@
+%-------------------------------------------------------------------------------
 \documentclass[11pt,a5paper]{book}
-
 %-------------------------------------------------------------------------------
 % Packages
 
@@ -10,7 +10,10 @@
             top=1in,
             bottom=1in,
             footskip=.25in]{geometry}
-
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
 \raggedbottom
 
 \usepackage[utf8]{inputenc}
@@ -67,15 +70,17 @@
 \pagenumbering{gobble}
 
 \usepackage[bottom]{footmisc}
-
 %-------------------------------------------------------------------------------
 % Metadata
 
-\title{Como Jogar Go: Uma Introdução Concisa}
-\author{Richard Bozulich e James Davies\\[1ex] 
-        \small{traduzido por Philippe Fanaro}}
-\date{}
-
+\usepackage{titling}
+\setlength{\droptitle}{-3cm}
+\title{\Huge{Como Jogar Go}\\[1ex]
+       \huge{Uma Introdução Concisa}}
+\author{\LARGE{Richard Bozulich e James Davies}\\[1ex] 
+        \Large{traduzido por Philippe Fanaro}}
+\renewcommand\maketitlehookc{\vspace{5cm}}
+\date{31 de Outubro de 2021}
 %-------------------------------------------------------------------------------
 % Content
 
@@ -113,3 +118,4 @@
     \bibliographystyle{unsrt}
     \bibliography{bibliografia}
 \end{document}
+%-------------------------------------------------------------------------------
