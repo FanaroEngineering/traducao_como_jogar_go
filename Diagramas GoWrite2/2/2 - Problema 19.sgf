@@ -1,3 +1,16 @@
 
-(;SZ[11]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]PB[ ]TR[fd][gd][fe]AB[gd][fd][fe][ef][de][eh]PM[2]FG[259:]AW[ff][ge][hd][gc][fc][ed]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[11]CA[UTF-8]GM[1]PM[2]PW[ ]TR[fd][gd][fe]FG[259:]AB[fe][fd][gd][ef][de][eh]GN[ ]AW[gc][ge][ed][ff][hd][fc]PB[ ]
+(
+;
+)
+(
+;GOWRITEFG[exportFile:Dia 1]FG[259:Dia 1]PM[2]
+;B[ee]
+)
+
+(
+;GOWRITEFG[exportFile:Dia 2]FG[259:Dia 2]PM[2]
+;B[gf];W[ee];
+)
+
 )
