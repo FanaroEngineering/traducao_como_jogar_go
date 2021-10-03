@@ -1,5 +1,5 @@
 %-------------------------------------------------------------------------------
-\documentclass[11pt,a5paper]{book}
+\documentclass[11pt,a5paper,oneside]{book}
 %-------------------------------------------------------------------------------
 % Packages
 
@@ -13,7 +13,7 @@
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
     {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+\titlespacing*{\chapter}{0pt}{0pt}{25pt}
 \raggedbottom
 
 \usepackage[utf8]{inputenc}
@@ -109,7 +109,7 @@
     \input{Conteudo/12_Como_Continuar_os_Estudos}
 
     \appendix
-    \addtocontents{toc}{\newpage\noindent\textbf{Apêndice}\par}
+    \addtocontents{toc}{\vspace*{1cm}\noindent\textbf{Apêndice}\par}
     \input{Conteudo/Apendice_Catalogo_EN}
     \input{Conteudo/Apendice_Catalogo_PT}
     \input{Conteudo/Apendice_KGS}
