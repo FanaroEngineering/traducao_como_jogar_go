@@ -1,24 +1,30 @@
 
-(;SZ[9]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]GOWRITEFG[exportFile:Dia 31]PB[ ]TR[di]AB[hb][gb][fc][dc][cc][bb][de][ee][fe][dg][eg][fh][gh][ch][bh][ah][bi][di]PM[2]FG[259:Dia 31]AW[dh][eh][ei][cg][bg][ag][ce][cd][be][ad][bc][gc][hc][id][he][gd][gg][hh]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[9]CA[UTF-8]GM[1]PM[2]PW[ ]TR[di]FG[259:Dia 31]GOWRITEFG[exportFile:Dia 31]AB[dg][eg][ah][bh][ch][bb][fh][gh][bi][gb][di][hb][cc][dc][fc][de][ee][fe]GN[ ]AW[cg][gg][dh][eh][hh][bc][ei][ad][gc][cd][hc][be][gd][ce][id][he][ag][bg]PB[ ]
+(
+;
+)
+(
 ;B[tt]
 (
 ;
 )
 (
-;PM[2]TR[di]FG[259:Dia 32]MN[1]GOWRITEFG[exportFile:Dia 32]
+;MN[1]FG[259:Dia 32]PM[2]GOWRITEFG[exportFile:Dia 32]TR[di]
 ;W[ci];B[hg]
 (
 ;
 )
 (
-;GOWRITEFG[exportFile:Dia 33]PM[2]FG[259:Dia 33]
+;GOWRITEFG[exportFile:Dia 33]FG[259:Dia 33]PM[2]
 ;W[hf];B[di]
 (
 ;
 )
 (
-;PM[2]FG[259:Dia 34]LB[fi:A]GOWRITEFG[exportFile:Dia 34]
+;LB[fi:A]FG[259:Dia 34]PM[2]GOWRITEFG[exportFile:Dia 34]
 ;W[fb];B[eb];W[ci];B[ig];W[ai];B[gf]
+)
+
 )
 
 )
