@@ -1,14 +1,14 @@
 
-(;SZ[9]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]GOWRITEFG[exportFile:Dia 35]PB[ ]AB[ba][bb][cb][cc][dc][eb][fc][gb][ga][fa][hb][fd][fe][ee][de][df][cf][dg][eg][fg][gf][hg][ig][gh][gi][fh]PM[2]FG[259:Dia 35]AW[ha][ia][ib][ic][hc][gc][gd][id][he][hf][if][fi][ei][eh][dh][ci][cg][bg][ag][ai][bf][be][ce][dd][ed][cd][bc][ad][ab]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[9]CA[UTF-8]GM[1]PM[2]PW[ ]FG[259:Dia 35]GOWRITEFG[exportFile:Dia 35]AB[ba][fa][ga][fh][gh][cc][dc][fc][de][ee][fe][dg][eg][fg][hg][bb][ig][cb][eb][gb][hb][gi][fd][cf][df][gf]GN[ ]AW[hf][if][dh][ha][eh][ia][bc][gc][hc][ic][be][ce][he][ag][bg][cg][ab][ai][ci][ei][ib][fi][ad][cd][dd][ed][gd][id][bf]PB[ ]
 (
 ;
-;PM[2]FG[259:Dia 37]AB[ec][aa]GOWRITEFG[exportFile:Dia 37]AW[ge][ac]
-;MA[ih][hh][hi][ii][gg][ff][ef][fb][ea][db][da][ca]PM[2]FG[259:Dia 38]GOWRITEFG[exportFile:Dia 38]AW[ge]
-;MA[di][ch][bi][bh][ah][af][ae][bd][hd][ie]PM[2]FG[259:Dia 39]GOWRITEFG[exportFile:Dia 39]AW[ge]
-;PM[2]TR[ae][af][hd][ie][ca][da][ea][db][fb][ff][ef]FG[259:Dia 40]AB[ff][ef][fb][ea][db][da][ca]GOWRITEFG[exportFile:Dia 40]AW[ge][ie][hd][ae][af]
+;FG[259:Dia 37]PM[2]AW[ge][ac]GOWRITEFG[exportFile:Dia 37]AB[aa][ec]
+;FG[259:Dia 38]PM[2]AW[ge]GOWRITEFG[exportFile:Dia 38]MA[ii][ca][da][gg][ea][db][hh][fb][ih][ef][ff][hi]
+;FG[259:Dia 39]PM[2]AW[ge]GOWRITEFG[exportFile:Dia 39]MA[bd][ah][bh][ae][ch][hd][bi][af][di][ie]
+;FG[259:Dia 40]PM[2]AW[af][ge][ie][ae][hd]GOWRITEFG[exportFile:Dia 40]AB[ca][da][ea][db][fb][ef][ff]TR[ca][da][ae][ea][hd][db][af][fb][ie][ef][ff]
 )
 (
-;PM[2]TR[hh]FG[259:Dia 36]GOWRITEFG[exportFile:Dia 36]
+;FG[259:Dia 36]PM[2]AW[hh]GOWRITEFG[exportFile:Dia 36]TR[hh]
 ;B[aa];W[ac];B[ec];W[ge]
 )
 
