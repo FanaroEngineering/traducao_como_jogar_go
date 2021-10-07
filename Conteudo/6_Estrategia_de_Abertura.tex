@@ -1,54 +1,58 @@
 \chapter{Estratégia de Abertura}\label{chap:6:estrat_abertura}
 
-Para se tornar um jogador forte de Go, é necessário desenvolver duas habilidades:
+Para se tornar um jogador forte de Go, é necessário desenvolver, imperativamente, duas habilidades:
 
 \vspace{.25cm}
 
-\begin{enumerate}[leftmargin=2.5cm,rightmargin=2cm]
+\begin{enumerate}[leftmargin=1.5cm,rightmargin=1cm]
     \item \textbf{leitura} à frente do tabuleiro atual, movimento por movimento, e previsão de resultados de embates locais;
-    \item \textbf{intuição} sobre o que está acontecendo no tabuleiro como um todo.
+    \item \textbf{intuição} sobre o que está acontecendo no tabuleiro como um todo, isto é, avaliação global.
 \end{enumerate}
 
 \vspace{.25cm}
 
-O balanço aproximadamente igualitário entre qualidades intuitivas e analíticas é grande parte da atratividade do Go. Na abertura, quando o tabuleiro consiste de majoritariamente espaço vazio, é intuição, e uma base de dados de conhecimento geral, que toma um papel dominante.
+O balanço aproximadamente igualitário entre qualidades intuitivas e analíticas é grande parte da atratividade do Go. Na abertura, quando o tabuleiro consiste de majoritariamente espaço vazio, é intuição, sedimentada em uma base de dados de conhecimento geral, que toma um papel dominante.
 
-\begin{wrapfigure}{r}{100mm}
+\begin{wrapfigure}{r}{60mm}
     \vspace{-30pt}
     \begin{center}
-        \includegraphics{6 - Dia 1}
-        \caption*{\emph{Dia.\@~1 (1-5)}}
+        \includegraphics[width=.5\textwidth]{6 - Dia 1}
+        \captionsetup{justification=centering}
+        \caption*{\emph{Dia.\@~1. (1-5)}}
     \end{center}
-    \vspace{-30pt}
+    \vspace{-20pt}
 \end{wrapfigure}
 
-No tabuleiro $19\times19$, o tamanho oficial, é difícil de se assegurar território no início, então a partida usualmente começa com os jogadores espaçando suas pedras para formar grandes armações dentro das quais eles poderão brigar vantajosamente no futuro.
+No tabuleiro 19$\times$19, o tamanho oficial, é difícil de se assegurar território no início, então a partida usualmente começa com os jogadores espaçando suas pedras para formar grandes armações dentro das quais eles poderão brigar vantajosamente no futuro.
 
-\emph{Dia.\@~1 a 3} mostra uma abertura típica no tabuleiro $19\times19$.
+\emph{Dias.\@~1 a 3} mostram uma abertura típica no tabuleiro 19$\times$19.
 
-É geralmente muito mais fácil de se estabelecer bases nos cantos, como Preto e Branco o fazem com 1 a 4 no \emph{Dia.\@~1}. Uma ou duas pedras por canto é suficiente. Com 5, Preto estabelece um enclausuro de canto. Esse movimento delimita e vigia o território no canto. Não é ainda território seguro, uma vez que Branco possui múltiplas maneiras de invadi-lo. Mas Preto terá a vantagem em qualquer luta que se irromper ali. O tempo para a invasão branca será, assim, um fator crítico.
+É geralmente muito mais fácil de se estabelecer bases nos cantos, como Preto e Branco o fazem com 1 a 4 no \emph{Dia.\@~1}. Uma ou duas pedras por canto é suficiente. Com 5, Preto estabelece um enclausuro de canto. Esse movimento delimita e vigia o território no canto. Não é ainda território seguro ou consolidado, uma vez que Branco possui múltiplas maneiras (condicionais) de invadi-lo. Mas Preto terá a vantagem em qualquer luta que se irromper por ali. O tempo para a invasão branca será, assim, um fator crítico.
 
-Aproximar-se do canto com Branco 6 no \emph{Dia.\@~2}, onde Preto possui somente uma pedra, é uma boa jogada. Isso frequentemente provoca lutas, como o curto conflito que se segue. Nos movimentos de 7 a 12, Preto assegura  o canto enquanto Branco constrói uma posição à direita. Essa sequência é um dos padrões-referência conhecidos como josekis.
+Aproximar-se do canto com Branco 6 no \emph{Dia.\@~2}, onde Preto possui somente uma pedra, é uma boa jogada. Isso frequentemente provoca lutas, como o curto conflito que se segue. Nos movimentos de 7 a 12, Preto assegura  o canto enquanto Branco constrói uma posição à direita. Essa sequência é um dos padrões-referência conhecidos como \emph{josekis}.
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}[t]{.495\textwidth}
         \centering
-        \includegraphics[width=.9\textwidth]{6 - Dia 2}
+        \includegraphics[width=\textwidth]{6 - Dia 2}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~2 (6-12)}}
     \end{subfigure}
+    \hfill
     \begin{subfigure}[t]{.495\textwidth}
         \centering
-        \includegraphics[width=.9\textwidth]{6 - Dia 3}
+        \includegraphics[width=\textwidth]{6 - Dia 3}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~3 (13-17)}}
     \end{subfigure}
 \end{figure}
 
-Preto 13 no \emph{Dia.\@~13} é outro exemplo de outra aproximação. Branco 14 forma uma armação esparsa no canto inferior esquerdo do tabuleiro a partir da pedra branca marcada. A terceira ou a quarta linha é a melhor para extensões como esta. Preto desenvolve uma armação no topo com 15 e 17. Note Preto 17 na quarta linha, e Preto 15 e a pedra preta marcada na terceira linha. Isso constitui um balanço ideal de jogadas altas e baixas. As pedras na terceira linha defendem os flancos da posição preta enquanto que a pedra na quarta linha expande seu território para o centro.
+Preto 13 no \emph{Dia.\@~3} é outro exemplo de outra aproximação. Branco 14 forma uma armação esparsa no quadrante inferior esquerdo do tabuleiro a partir da pedra branca marcada. A terceira ou a quarta linha são as melhores para extensões como esta. Preto desenvolve uma armação no topo com 15 e 17. Note Preto 17 na quarta linha, e Preto 15 e a pedra preta marcada na terceira linha. Isso constitui um balanço ideal de jogadas altas e baixas. As pedras na terceira linha defendem os flancos da posição preta enquanto que a pedra na quarta linha expande seu território para o centro.
 
 \pagebreak
 
-\section{A Primeira Prioridade: Estabelecer uma Presença no Canto}
+\section{A Primeira Prioridade: Presença no Canto}
 
 A abertura de uma partida de Go geralmente se inicia com ambos os lados estabelecendo presenças nos cantos. Os pontos a seguir são os cinco de referência que um jogador usualmente ocupa com seus primeiros movimentos.
 
@@ -58,19 +62,22 @@ A abertura de uma partida de Go geralmente se inicia com ambos os lados estabele
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Corner - Dia 1}
+        \includegraphics{6 - Corner - Dia 1}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~1 O ponto 3-3}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Corner - Dia 2}
+        \includegraphics{6 - Corner - Dia 2}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~2 O ponto-estrela}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Corner - Dia 3}
+        \includegraphics{6 - Corner - Dia 3}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~3 O ponto 3-4}}
     \end{subfigure}
 \end{figure}
@@ -86,13 +93,15 @@ A abertura de uma partida de Go geralmente se inicia com ambos os lados estabele
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Corner - Dia 4}
+        \includegraphics{6 - Corner - Dia 4}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~4 O ponto 5-3}}
     \end{subfigure}
     \hspace{1cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Corner - Dia 5}
+        \includegraphics{6 - Corner - Dia 5}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~5 O ponto 5-4}}
     \end{subfigure}
 \end{figure}
@@ -105,26 +114,29 @@ A abertura de uma partida de Go geralmente se inicia com ambos os lados estabele
 
 Depois de os jogadores terem ocupado os cantos, é praxe atacá-los ou desafiá-los. Tais movimentos são conhecidos como movimentos de aproximação.
 
-Uma pedra no 3-3 vai geralmente ser atacada por um movimento no ponto 4-4 --- Branco 1 no \emph{Dia.\@~6}. Com movimentos até Branco 7, Preto assegura o território no canto, mas Branco ganha influência no centro. Essa sequência é um padrão estabelecido como joseki. Seria uma boa ideia memorizar esse padrão básico e outros conforme continuamos, uma vez que eles são alguns dos mais comuns que você encontrará.
+Uma pedra no 3-3 vai geralmente ser atacada por um movimento no ponto 4-4 --- Branco 1 no \emph{Dia.\@~6}. Com movimentos até Branco 7, Preto assegura o território no canto, mas Branco ganha influência no centro. Esta sequência é um padrão estabelecido como joseki. Seria uma boa ideia memorizar este padrão básico e outros conforme continuamos, uma vez que eles são alguns dos mais comuns que você encontrará.
 
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 6}
+        \includegraphics[width=.85\textwidth]{6 - Approach - Dia 6}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~6. Um joseki do ponto 3-\@3}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 7}
+        \includegraphics[width=.85\textwidth]{6 - Approach - Dia 7}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~7. Um joseki do ponto 4-\@4}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 8}
+        \includegraphics[width=.85\textwidth]{6 - Approach - Dia 8}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~8. Um joseki do ponto 4-\@4}}
     \end{subfigure}
 \end{figure}
@@ -133,46 +145,55 @@ Contra uma pedra jogada no ponto 4-4, é usual se aproximar com um movimento do 
 
 Ao invés de 1 no \emph{Dia.\@~7}, Branco poderia também invadir o ponto 3-3 com 1 no \emph{Dia.\@~8}. A sequência até Preto 12 é outro joseki básico. Branco consegue um território blindado no canto, mas Preto obtém uma posição muito densa no exterior. Se não houver muitas pedras no tabuleiro, a densidade preta é julgada como melhor do que o território branco, portanto não é aconselhável que Branco jogue essa sequência até que o meio de jogo comece. Esse joseki enfatiza a principal fraqueza da pedra situada no ponto 4-4: ela deixa o canto aberto para invasões. No entanto, um jogador que queira prosseguir com uma estratégia que enfatize influência central vai geralmente jogar uma pedra ou no ponto 4-4 ou no ponto 5-4.
 
-Contra uma pedra no ponto 3-4, há duas aproximações básicas: o movimento curto do cavaleiro em \textbf{A} no \emph{Dia.\@~9} e a aproximação de um espaço em \textbf{B}.
+\pagebreak
+
+Contra uma pedra no ponto 3-4, há duas aproximações básicas: o movimento (curto) do cavaleiro em \textbf{A} no \emph{Dia.\@~9} e a aproximação de um espaço em \textbf{B}.
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 8cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 9}
+        \includegraphics[width=\textwidth]{6 - Approach - Dia 9}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~9}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 10}
+        \includegraphics[width=\textwidth]{6 - Approach - Dia 10}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~10}}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={7cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 11}
+        \includegraphics[width=\textwidth]{6 - Approach - Dia 11}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~11}}
     \end{subfigure}
 \end{figure}
 
 Contra a aproximação curta do cavaleiro de Branco 1 no \emph{Dia.\@~10}, Preto 2 é uma resposta sólida. Branco pode responder estendendo até 3 ou mesmo tão distantemente quanto \textbf{A}.
 
-Se Branco joga a aproximação de um espaço de 1 no \emph{Dia.\@~11}, contatar-se com Preto 2 é uma resposta popular. A sequência até Branco 7 é um joseki básico. Preto assegura o canto e Branco estabelece uma posição no topo. Preto poderia também jogar 6 em \textbf{A}, e Branco poderia jogar 7 em \textbf{B}. Compare esse joseki a movimentos como 6 a 12 no \emph{Dia.\@~2} no início desta seção sobre estratégia de abertura.
+Se Branco joga a aproximação de um espaço de 1 no \emph{Dia.\@~11}, contatar-se com Preto 2 é uma resposta popular. A sequência até Branco 7 é um joseki básico. Preto assegura o canto e Branco estabelece uma posição no topo. Preto poderia também jogar 6 em \textbf{A}, e Branco poderia jogar 7 em \textbf{B}. Compare este joseki a movimentos como 6 a 12 no \emph{Dia.\@~2} no início desta seção sobre estratégia de abertura.
+
+\pagebreak
 
 Quando Preto possui uma pedra no ponto 5-3 (a pedra marcada), Branco 1 no \emph{Dia.\@~12} é a aproximação padrão. Preto responde achatando Branco com 2 e 4. Branco assegura o território à direita com 3 e 5 e Preto estende a partir de sua parede com 6, estabelecendo uma posição no topo.
 
 \begin{figure}[h!]
     \centering
-    \begin{subfigure}[t]{.3\textwidth}
+    \begin{subfigure}[t]{.35\textwidth}
         \centering
-        \includegraphics[trim={6cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 12}
+        \includegraphics{6 - Approach - Dia 12}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~12}}
     \end{subfigure}
     \hspace{1cm}
-    \begin{subfigure}[t]{.3\textwidth}
+    \begin{subfigure}[t]{.35\textwidth}
         \centering
-        \includegraphics[trim={6cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Approach - Dia 13}
+        \includegraphics{6 - Approach - Dia 13}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~13}}
     \end{subfigure}
 \end{figure}
@@ -191,30 +212,37 @@ Após Branco se aproximar com a pedra no 4-4 com 1 no \emph{Dia.\@~14}, Branco p
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 14}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 14}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~14}}
     \end{subfigure}
     \hspace{1cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 15}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 15}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~15}}
     \end{subfigure}
 \end{figure}
 
-Quando Preto possui a pedra marcada, como no \emph{Dia.\@~16}, a direção correta para Preto bloquear é por baixo com 4. Os movimentos até Preto 8 também constituem um joseki. Novamente, Branco consegue o canto, mas Preto conseguiu mapear uma armação territorial no lado superior direito com sua parede e a pedra marcada.
+\pagebreak
+
+Quando Preto possui a pedra marcada, como no \emph{Dia.\@~16}, a direção correta para Preto bloquear é por baixo, com 4. Os movimentos até Preto 8 também constituem um joseki. Novamente, Branco consegue o canto, mas Preto conseguiu mapear uma armação territorial no canto superior direito com sua parede e a pedra marcada.
 
 \begin{figure}[h!]
     \centering
+    \hspace{-2cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 7cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 16}
+        \includegraphics[width=1.1\textwidth]{6 - Pincers - Dia 16}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~16}}
     \end{subfigure}
     \hspace{1cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={5cm 6cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 17}
+        \includegraphics[width=1.625\textwidth]{6 - Pincers - Dia 17}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~17}}
     \end{subfigure}
 \end{figure}
@@ -227,32 +255,38 @@ No \emph{Dia.\@~18}, Branco se aproxima da pedra marcada no ponto 3-4 com 1, e P
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 6cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 18}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 18}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~18}}
     \end{subfigure}
     \hspace{1cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 6cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 19}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 19}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~19}}
     \end{subfigure}
 \end{figure}
 
 Apesar de que um pouco distante, Preto 2 no \emph{Dia.\@~19} é também uma pinça contra 1. Branco sai para o centro com seu pulo de dois espaços em 3. Preto defende o lado direito com 4, e Branco faz uma base com suas pedras de 5 a 9.
 
-Preto 2 no \emph{Dia.\@~19} é o mais distante que uma pedra pode ser jogada para ser denominada como pinça. Por exemplo, Preto 2 no \emph{Dia.\@~20} não é uma pinça contra a pedra branca em 1 pois Branco pode jogar a extensão ideal de 3.
+\pagebreak
+
+Preto 2 no \emph{Dia.\@~19} é o mais distante --- cinco intersecções de distância --- que uma pedra pode ser jogada para ser denominada como pinça. Por exemplo, Preto 2 no \emph{Dia.\@~20} não é uma pinça contra a pedra branca em 1 pois Branco pode jogar a extensão ideal de 3.
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 6cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 20}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 20}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~20}}
     \end{subfigure}
     \hspace{1cm}
     \begin{subfigure}[t]{.3\textwidth}
         \centering
-        \includegraphics[trim={6cm 6cm 0cm 0cm},clip,width=.9\textwidth]{6 - Pincers - Dia 21}
+        \includegraphics[width=1.2\textwidth]{6 - Pincers - Dia 21}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~21}}
     \end{subfigure}
 \end{figure}
@@ -263,21 +297,22 @@ Contra a aproximação alta de Branco 1 no \emph{Dia.\@~21}, há diversas pinça
 
 \section{Josekis}
 
-Nas seções sobre aproximações e pinças, vários josekis básicos foram introduzidos. Esses josekis são tão básicos que eles constantemente surgem em partidas, então é uma boa ideia memorizá-los. Josekis provêm exemplos de bons movimentos que você pode aplicar a posições em seus próprios jogos, sendo assim, ao estudá-los, você gradativamente afiará sua intuição sobre o que constitui uma boa jogada.
+Nas seções sobre aproximações e pinças, vários josekis básicos foram introduzidos. Esses josekis são tão básicos que constantemente surgem em partidas, então é uma boa ideia memorizá-los. Josekis provêm exemplos de bons movimentos que você pode aplicar a posições em seus próprios jogos, sendo assim, ao estudá-los, você gradativamente afiará sua intuição sobre o que constitui uma boa jogada.
 
-Um bom livro para se começar a estudar josekis é \emph{38 Basic Josekis}~\cite{kosugi_bozulich_38_basic_joseki}. Conforme você se tornar mais forte, você irá querer um livro de referência mais completo no assunto. Para esse propósito, nós recomendamos a coleção de dois volumes \emph{21st Century Dictionary of Basic Josekis}~\cite{takao_shinji_21st_century_joseki_dictionary}, por Takao Shinji 9p. Apesar de que ele não contém algumas inovações recentes, outro excelente livro é o livro \emph{A Dictionary of Basic Josekis}~\cite{ishida_yoshio_basic_joseki_dictionary}, por Ishida Yoshio 9p. Ele contém muitos exemplos de jogos nos quais os josekis foram estudados e utilizados. Todos esses livros foram publicados pela Kiseido~\cite{kiseido}.
+Um bom livro para se começar a estudar josekis é \emph{38 Basic Josekis}~\cite{kosugi_bozulich_38_basic_joseki}. Conforme você se tornar mais forte, desejará um livro de referência mais completo no assunto. Para esse propósito, nós recomendamos a coleção de dois volumes \emph{21st Century Dictionary of Basic Josekis}~\cite{takao_shinji_21st_century_joseki_dictionary}, por Takao Shinji 9p. Apesar de que ele não contém algumas inovações recentes, outro excelente livro é o \emph{A Dictionary of Basic Josekis}~\cite{ishida_yoshio_basic_joseki_dictionary}, por Ishida Yoshio 9p. Ele contém muitos exemplos de jogos nos quais os josekis foram estudados e utilizados. Todos esses livros foram publicados pela Kiseido~\cite{kiseido}.
 
 \pagebreak
 
 \section{Enclausuros de Canto}
 
-\begin{wrapfigure}{r}{80mm}
-    \vspace{-35pt}
+\begin{wrapfigure}{r}{60mm}
+    \vspace{-30pt}
     \begin{center}
-        \includegraphics{6 - Corner Enclosures.eps}
+        \includegraphics[width=.5\textwidth]{6 - Corner Enclosures}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~22}}
     \end{center}
-    \vspace{-35pt}
+    \vspace{-20pt}
 \end{wrapfigure}
 
 Ao invés de fazer uma jogada de aproximação, um jogador talvez escolha reforçar uma pedra que ele já jogou em um canto, com um enclausuro. Na abertura mostrada no \emph{Dia.\@~22}, após Branco 4, Preto faz um enclausuro de movimento de cavaleiro curto com com 5. Preto poderia também fazer o enclausuro de um espaço jogando em \textbf{A} ou o de cavaleiro longo com \textbf{B}. Essas são todas boas jogadas, mas o de cavaleiro curto é o que mais vem sendo jogado ultimamente pois tende a melhor defender o canto. O enclausuro de um espaço de Branco 6 é jogado para enfatizar o centro, mas, já que possui um flanco aberto, está vulnerável a um ataque ao redor de \textbf{C}.
@@ -286,7 +321,7 @@ Ao invés de fazer uma jogada de aproximação, um jogador talvez escolha refor�
 
 \section{Extensões}
 
-Até aqui, consideramos movimentos feitos primariamente em torno do canto. Conforme a partida progride, extensões ao longo dos lados precisarão ser feitas. Extensões precisam trabalhar eficientemente. Elas deveriam não ser demasiado curtas nem demasiado longas. Há três princípios relacionados que oferecem diretivas para a criação de extensões eficientes.
+Até aqui, consideramos movimentos feitos primariamente em torno do canto. Conforme a partida progride, entretanto, extensões ao longo dos lados precisarão ser feitas. Extensões precisam trabalhar eficientemente. Elas deveriam não ser demasiado curtas nem demasiado longas. Há três princípios similares que oferecem diretivas para a criação de extensões eficientes.
 
 \begin{itemize}
     \item[\textbf{Princípio 1}] De uma pedra só, estenda dois espaços.
@@ -297,19 +332,22 @@ Até aqui, consideramos movimentos feitos primariamente em torno do canto. Confo
         \centering
         \begin{subfigure}[t]{.3\textwidth}
             \centering
-            \includegraphics[trim={3cm 3cm 0cm 0cm},clip,width=.9\textwidth]{6 - Extensions - Dia 23}
+            \includegraphics[width=1\textwidth]{6 - Extensions - Dia 23}
+            \captionsetup{justification=centering}
             \caption*{\emph{Dia.\@~23}}
         \end{subfigure}
         \hfill
         \begin{subfigure}[t]{.3\textwidth}
             \centering
-            \includegraphics[trim={3cm 3cm 0cm 0cm},clip,width=.9\textwidth]{6 - Extensions - Dia 24}
+            \includegraphics[width=1\textwidth]{6 - Extensions - Dia 24}
+            \captionsetup{justification=centering}
             \caption*{\emph{Dia.\@~24}}
         \end{subfigure}
         \hfill
         \begin{subfigure}[t]{.3\textwidth}
             \centering
-            \includegraphics[trim={3cm 3cm 0cm 0cm},clip,width=.9\textwidth]{6 - Extensions - Dia 25}
+            \includegraphics[width=1\textwidth]{6 - Extensions - Dia 25}
+            \captionsetup{justification=centering}
             \caption*{\emph{Dia.\@~25}}
         \end{subfigure}
     \end{figure}
@@ -324,57 +362,62 @@ Até aqui, consideramos movimentos feitos primariamente em torno do canto. Confo
 
 \pagebreak
 
-\begin{wrapfigure}{r}{80mm}
-    \vspace{-20pt}
+\begin{wrapfigure}{r}{60mm}
+    \vspace{-15pt}
     \begin{center}
-        \includegraphics{6 - Extensions - Dia 26.eps}
+        \includegraphics[width=.5\textwidth]{6 - Extensions - Dia 26}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~26}}
     \end{center}
     \vspace{-20pt}
 \end{wrapfigure}
 
-Esses princípios não são tão rígidos; eles deveriam ser interpretados como diretivas. Suas extensões precisam trabalhar não somente em consonância com suas próprias pedras mas também efetivamente para frustrar os planos do oponente.
+Esses princípios não são tão rígidos; eles deveriam ser interpretados como diretivas. Suas extensões precisam trabalhar não somente em consonância com suas próprias pedras mas também de modo a efetivamente frustrar os planos do oponente.
 
-Na abertura no \emph{Dia.\@~26}, nenhum movimento de aproximação foi feito, e cada lado tomou dois enclausuros de canto. A atenção agora se desloca para as extensões ao longo dos lados. Após Branco 8, onde está a maior extensão? O que deveria imediatemente são os dois enclausuros de canto de um espaço no lado direito, olhando um para o outro. O lado que estender de seu enclausuro primeiro tomará a iniciativa.
+Na abertura no \emph{Dia.\@~26}, nenhum movimento de aproximação foi feito, e cada lado tomou dois enclausuros de canto. A atenção agora se desloca para as extensões ao longo dos lados. Após Branco 8, onde está a maior extensão? O que deveria imediatemente saltar aos seus olhos são os dois enclausuros de canto de um espaço no lado direito, olhando um para o outro. O lado que estender de seu enclausuro primeiro tomará a iniciativa.
 
-\begin{wrapfigure}{l}{80mm}
-    \vspace{-25pt}
+\begin{wrapfigure}{l}{60mm}
+    \vspace{-27.5pt}
     \begin{center}
-        \includegraphics{6 - Extensions - Dia 27.eps}
+        \includegraphics[width=.5\textwidth]{6 - Extensions - Dia 27}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~27}}
     \end{center}
-    \vspace{-150pt}
+    \vspace{-20pt}
 \end{wrapfigure}
 
 \bigskip
 
-Por estender cinco espaços de seu enclausuro no canto superior direito com 9 no \emph{Dia.\@~27}, Preto toma a iniciativa no lado direito. Este é o ponto em que Branco também gostaria de jogar, uma que está na direção em que ambos os enclausuros emanam influência. Em geral, estender cinco espaços de um enclausuro é a norma.
+Por estender cinco espaços de seu enclausuro no canto superior direito com 9 no \emph{Dia.\@~27}, Preto toma a iniciativa no lado direito. Este é o ponto em que Branco também gostaria de jogar, uma vez que está na direção em que ambos os enclausuros emanam influência. Em geral, estender cinco espaços de um enclausuro é a norma.
 
 Branco responde estendendo no lado inferior com 10. Esse movimento faz duas coisas: pára uma extensão preta a partir do enclausuro no canto inferior esquerdo; e protege o flanco do enclausuro branco. Preto 11 possui o mesmo significado. Branco 12 no lado esquerdo é a extensão de menor valor, dado que os enclausuros preto e branco não projetam muita influência nesta direção.
 
 \pagebreak
 
-\begin{wrapfigure}{r}{80mm}
-    \vspace{-20pt}
+\begin{wrapfigure}{r}{60mm}
+    \vspace{-15pt}
     \begin{center}
-        \includegraphics{6 - Extensions - Dia 28.eps}
+        \includegraphics[width=.5\textwidth]{6 - Extensions - Dia 28}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~28}}
     \end{center}
-    \vspace{-10pt}
+    \vspace{-20pt}
 \end{wrapfigure}
 
 Não é sempre possível fazer uma extensão de um enclausuro de canto. No \emph{Dia.\@~28}, por exemplo, Branco joga no meio da esfera de influência preta com 1. Preto 2 é o mais longe que Preto pode estender a partir de seu enclausuro. Branco precisa construir uma base para suas pedras estendendo para 3, e Preto reforça seu canto com 4.
 
-\begin{wrapfigure}{l}{80mm}
-    \vspace{-35pt}
+\begin{wrapfigure}{l}{60mm}
+    \vspace{-27.5pt}
     \begin{center}
-        \includegraphics{6 - Extensions - Dia 29.eps}
+        \includegraphics[width=.5\textwidth]{6 - Extensions - Dia 29}
+        \captionsetup{justification=centering}
         \caption*{\emph{Dia.\@~29}}
     \end{center}
+    \vspace{-10pt}
 \end{wrapfigure}
 
 No \emph{Dia.\@~29}, Branco quer prevenir a segunda extensão de enclausuro preta no canto inferior direito, então ele faz a aproximação alta de 1. Preto contata com 2, e isso tudo resulta no joseki até Branco 7. Preto 8 talvez pareça uma extensão curta, mas, ainda assim, é uma boa jogada, porque contém a ameaça da invasão em \textbf{A}. Além disso, ela previne a jogada branca \textbf{B}, que reforçaria a posição branca no lado direito enquanto ameaçaria o enclausuro preto acima.
 
 \bigskip
 
-Essa é somente uma breve introdução à abertura. Para um tratamento mais completo dessa etapa da partida, recomendamos os seguintes dois livros publicados pela Kiseido: \emph{Opening Theory Made Easy}~\cite{otake_opening_theory_made_easy}, por Otake Hideo 9p; e \emph{In the Beginning}~\cite{ikure_in_the_beginning}, por Ikuro Ishigure.
+Essa é somente uma breve introdução à abertura e sua teoria. Para um tratamento mais completo dessa etapa da partida, recomendamos os seguintes dois livros publicados pela Kiseido: \emph{Opening Theory Made Easy}~\cite{otake_opening_theory_made_easy}, por Otake Hideo 9p; e \emph{In the Beginning}~\cite{ikure_in_the_beginning}, por Ikuro Ishigure.
