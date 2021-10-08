@@ -1,27 +1,28 @@
 
-(;SZ[9]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]GOWRITEFG[exportFile:Dia 1]PB[ ]AB[bi][bh][ch][dh][eh][fh][fi]PM[2]FG[259:Dia 1]AW[ah][bg][cg][dg][eg][fg][gg][gh][gi]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[9]CA[UTF-8]GM[1]PM[2]PW[ ]FG[259:Dia 1]GOWRITEFG[exportFile:Dia 1]AB[bh][ch][dh][eh][fh][bi][fi]GN[ ]AW[cg][dg][eg][ah][fg][gg][gh][gi][bg]PB[ ]
 (
 ;
 )
 (
-;GOWRITEFG[exportFile:Dia 2]PM[2]FG[259:Dia 2]
+;GOWRITEFG[exportFile:Dia 2]FG[259:Dia 2]PM[2]
 ;B[di]
 )
 
 (
-;PM[2]FG[259:Dia 3]MN[1]GOWRITEFG[exportFile:Dia 3]
-;B[tt];W[di]
+;B[tt]
+;MN[1]FG[259:Dia 3]PM[2]GOWRITEFG[exportFile:Dia 3]
+;W[di]
 (
 ;
 )
 (
-;PM[2]FG[259:Dia 4]MN[2]GOWRITEFG[exportFile:Dia 4]
+;MN[2]FG[263:Dia 4]PM[2]GOWRITEFG[exportFile:Dia 4]
 ;B[tt];W[ag];B[tt];W[ai];B[tt];W[ci];B[ei]
 (
 ;
 )
 (
-;GOWRITEFG[exportFile:Dia 5]PM[2]FG[259:Dia 5]
+;GOWRITEFG[exportFile:Dia 5]FG[263:Dia 5]PM[2]
 ;W[ci];B[tt];W[di];
 )
 
