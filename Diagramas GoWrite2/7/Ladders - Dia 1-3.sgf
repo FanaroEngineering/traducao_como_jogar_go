@@ -1,19 +1,25 @@
 
-(;SZ[7]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]GOWRITEFG[exportFile:Dia 1]PB[ ]TR[ed]AB[fe][ef][fg][gf][ed]PM[2]FG[259:Dia 1]AW[fd][ee][de]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[7]CA[UTF-8]GM[1]PM[2]PW[ ]TR[ed]FG[259:Dia 1]GOWRITEFG[exportFile:Dia 1]AB[fe][fg][ed][ef][gf]GN[ ]AW[fd][ee][de]PB[ ]
+(
+;
+)
+(
 ;B[tt]
 (
 ;
 )
 (
-;PM[2]FG[259:Dia 2]MN[1]GOWRITEFG[exportFile:Dia 2]
+;MN[1]FG[259:Dia 2]PM[2]GOWRITEFG[exportFile:Dia 2]
 ;W[ec]
 (
 ;
 )
 (
-;GOWRITEFG[exportFile:Dia 3]PM[2]FG[259:Dia 3]
+;GOWRITEFG[exportFile:Dia 3]FG[259:Dia 3]PM[2]
 ;B[dd];W[cd];B[dc];W[db];B[cc];W[bc];B[cb];W[bb];B[ca]
 ;LB[ba:A][aa:B]W[da]
+)
+
 )
 
 )

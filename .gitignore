@@ -6,6 +6,7 @@
 **/*.pdf
 **/*.ps
 **/*.synctex.gz
+**/*.synctex(busy)
 **/*.toc
 **/*.bbl
 **/*.blg

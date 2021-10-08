@@ -1,4 +1,4 @@
-# Tradução de "How to Play Go: A Concise Introduction", por Richard Bozulich e James Davies
+# Tradução de "How to Play Go: A Concise Introduction", por Richard Bozulich e James Davies, da editora Kiseido
 
 > Obrigado ao Richard Bozulich por me permitir traduzir este livro.
 
