@@ -1,8 +1,10 @@
 # Tradução de "How to Play Go: A Concise Introduction", por Richard Bozulich e James Davies, da editora Kiseido
 
-> Obrigado ao Richard Bozulich por me permitir traduzir este livro.
+> Obrigado ao Richard Bozulich e à editora Kiseido por me permitirem traduzir este livro.
 
 Àqueles que gostariam de construir mais material de Go, sintam-se à vontade para explorar este projeto como modelo, bom ou ruim; e também não hesitem em fazer perguntas!
+
+---
 
 **Índice**
 
@@ -19,6 +21,8 @@
     </li>
   </ul>
 </div>
+
+---
 
 ## 1. Links Úteis
 
