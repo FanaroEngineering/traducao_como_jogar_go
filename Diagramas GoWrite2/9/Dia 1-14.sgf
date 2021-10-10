@@ -48,7 +48,6 @@
 )
 
 (
-;FG[259:Dia 7]PM[2]GOWRITEFG[exportFile:Dia 7]TR[pf][pj][qf]
 ;B[nj];W[nq];B[oo]
 (
 ;
@@ -75,6 +74,11 @@
 (
 ;FG[259:Dia 3]PM[2]GOWRITEFG[exportFile:Dia 3]TR[pj]
 ;W[pm];B[np];W[nj];B[oi];
+)
+
+(
+;FG[259:Dia 7]PM[2]GOWRITEFG[exportFile:Dia 7]TR[pj][qf][pf]
+;W[pm];B[nj];W[nq];B[oo];
 )
 
 )
