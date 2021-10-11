@@ -82,7 +82,14 @@
 
 \usepackage[bottom]{footmisc}
 
+% Necessita especificamente de XeLaTeX.
 \usepackage{xeCJK}
+\xeCJKDeclareSubCJKBlock{Kana}{"3040 -> "309F, "30A0 -> "30FF, "31F0 -> "31FF, "1B000 -> "1B0FF}
+\xeCJKDeclareSubCJKBlock{Hangul}{"1100 -> "11FF, "3130 -> "318F, "A960 -> "A97F, "AC00 -> "D7AF, "D7B0 -> "D7FF}
+
+\setCJKmainfont{SimSun}
+\setCJKmainfont[Kana]{MS Mincho}
+\setCJKmainfont[Hangul]{Batang} % É preciso instalar a fonte Batang no sistema
 %-------------------------------------------------------------------------------
 % Content
 
@@ -100,30 +107,5 @@
   \frontmatter
   \input{Conteudo/Pre_Prefacio}
   \input{Conteudo/Pre_Nota_do_Tradutor}
-  \input{Conteudo/Pre_Glossario}
-
-  \mainmatter
-  \input{Conteudo/1_Equipamento}
-  \input{Conteudo/2_Regras}
-  \input{Conteudo/3_Ko}
-  \input{Conteudo/4_Fim_do_Jogo}
-  \input{Conteudo/5_Partidas_Exemplo}
-  \input{Conteudo/6_Estrategia_de_Abertura}
-  \input{Conteudo/7_Taticas_Elementares}
-  \input{Conteudo/8_Vida_e_Morte}
-  \input{Conteudo/9_Estrategia_de_Go_com_Compensacao}
-  \input{Conteudo/10_Niveis_e_Compensacoes}
-  \input{Conteudo/11_Movimentos_de_Fim_de_Jogo}
-  \input{Conteudo/12_Como_Continuar_os_Estudos}
-
-  \appendix
-  \addtocontents{toc}{\newpage\noindent\textbf{Apêndice}\par}
-  \input{Conteudo/Apendice_Catalogo_EN}
-  \input{Conteudo/Apendice_Catalogo_PT}
-  \input{Conteudo/Apendice_KGS}
-
-  \backmatter
-  \bibliographystyle{unsrt}
-  \bibliography{bibliografia}
 \end{document}
 %-------------------------------------------------------------------------------
