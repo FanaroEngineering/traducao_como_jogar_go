@@ -1,10 +1,10 @@
 
-(;SZ[19]FF[4]CA[UTF-8]GM[1]AP[GOWrite:3.0.20]ST[2]PW[ ]GN[ ]PB[ ]HA[5]AB[dd][pd][pj][jj][dj][dp][jp][pp][jd][nd][qe][nf][qo][np][nm]PM[2]FG[259:]AW[qf][pf][oh][nj][ol][qn][pm]
+(;FF[4]ST[2]AP[GOWrite:3.0.20]SZ[19]CA[UTF-8]GM[1]PM[2]PW[ ]FG[259:]HA[5]AB[qe][nf][nm][dp][dj][dd][jp][jj][qo][jd][np][pp][pj][nd][pd]GN[ ]AW[oh][qn][ol][pf][qf][nj][pm]PB[ ]
 (
 ;
 )
 (
-;PM[2]TR[qn]FG[259:Dia 1]GOWRITEFG[exportFile:Dia 1]
+;FG[259:Dia 1]PM[2]GOWRITEFG[exportFile:Dia 1]TR[qn]
 ;B[re]
 (
 ;
@@ -15,20 +15,19 @@
 ;
 )
 (
-;GOWRITEFG[exportFile:Dia 2]PM[2]FG[259:Dia 2]
+;GOWRITEFG[exportFile:Dia 2]FG[259:Dia 2]PM[2]
 ;W[rf];B[sf];W[qh];B[rh];W[qi];B[ri];W[rj];B[rk];W[qj];B[sj]
 )
 
 )
 
 (
-;GOWRITEFG[exportFile:Dia 3]PM[2]FG[259:Dia 3]
 ;W[rf];B[ro];W[rn]
 (
 ;
 )
 (
-;PM[2]FG[259:Dia 4]LB[dn:A][df:B]GOWRITEFG[exportFile:Dia 4]
+;LB[dn:A][df:B]FG[259:Dia 4]PM[2]GOWRITEFG[exportFile:Dia 4]
 ;B[sf];W[sg];B[se];W[rh];B[sn];W[sm];B[so];W[rl];
 )
 
@@ -38,7 +37,7 @@
 ;
 )
 (
-;PM[2]FG[259:Dia 5]LB[sj:A][sk:B][ri:C][qi:D]MN[1]GOWRITEFG[exportFile:Dia 5]
+;MN[1]LB[sj:A][sk:B][ri:C][qi:D]FG[259:Dia 5]PM[2]GOWRITEFG[exportFile:Dia 5]
 ;W[cn];B[rg];W[sh];B[rh];W[si];B[rj];
 )
 
@@ -50,7 +49,7 @@
 
 (
 ;B[ng]
-;AW[ni][nk][og][of][rf][rn][pn][om]AB[nh][oe][re][pe][mi][mj][mk][nl][on][no][po][ro]
+;AW[pn][rn][ni][of][rf][om][og][nk]AB[nh][oe][pe][no][mi][nl][re][po][ro][mj][mk][on]
 (
 ;
 )
@@ -60,24 +59,29 @@
 ;
 )
 (
-;PM[2]FG[259:Dia 6]MN[5]GOWRITEFG[exportFile:Dia 6]
+;MN[5]FG[259:Dia 6]PM[2]GOWRITEFG[exportFile:Dia 6]VW[ja:ss]
 ;B[sf];W[sg];B[se];W[rh];B[sn];W[sm];B[so];W[rl];
 )
 
 )
 
 (
-;PM[2]FG[259:Dia 7]MN[5]GOWRITEFG[exportFile:Dia 7]
+;MN[5]FG[259:Dia 7]PM[2]GOWRITEFG[exportFile:Dia 7]VW[ja:ss]
 ;W[se];B[sd];W[sf];B[rc];W[so];B[sp];W[sn]
-;MA[sg][rh]B[rq]LB[sm:y][rl:y]
+;B[rq]MA[sg][rh]TR[rl][sm]
 ;
 )
 
 )
 
 (
-;PM[2]FG[259:Dia 8]LB[dc:A]GOWRITEFG[exportFile:Dia 8]
+;LB[dc:A]FG[259:Dia 8]PM[2]GOWRITEFG[exportFile:Dia 8]
 ;B[df];W[rf];B[ec];W[rd];B[fp];W[qc];B[co];W[ob];B[nb];W[oc];B[nc];
+)
+
+(
+;GOWRITEFG[exportFile:Dia 3]FG[259:Dia 3]PM[2]
+;B[re];W[rf];B[ro];W[rn];
 )
 
 )
