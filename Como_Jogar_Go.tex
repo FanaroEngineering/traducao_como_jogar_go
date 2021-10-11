@@ -12,8 +12,6 @@
             top=          0.7in,
             bottom=       0.6in,
             footskip=     0.25in]{geometry}
-% Para mais informações sobre formatação, veja #1 ou o link:
-% https://techietalkntools.wordpress.com/2018/01/21/binding-offset-in-latex/
 
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
@@ -83,60 +81,49 @@
 \pagenumbering{gobble}
 
 \usepackage[bottom]{footmisc}
-%-------------------------------------------------------------------------------
-% Metadata
 
-\usepackage{titling}
-\setlength{\droptitle}{-3cm}
-\title{\Huge{Como Jogar Go}\\[1ex]
-       \huge{Uma Introdução Concisa}}
-\author{\LARGE{Richard Bozulich e James Davies}\\[1ex] 
-        \Large{traduzido por Philippe Fanaro}}
-\renewcommand\maketitlehookc{\vspace{5cm}}
-\date{31 de Outubro de 2021}
+\usepackage{xeCJK}
 %-------------------------------------------------------------------------------
 % Content
 
 \begin{document}
+  \input{Conteudo/Pagina_Titulo}
 
-\maketitle
+  \cleardoublepage
 
-\cleardoublepage
+  \shorttoc{Índice Resumido}{0}
+  \addcontentsline{toc}{chapter}{Índice}
+  \tableofcontents
 
-\shorttoc{Índice Resumido}{0}
-\addcontentsline{toc}{chapter}{Índice}
-\tableofcontents
+  \cleardoublepage
 
-\cleardoublepage
+  \frontmatter
+  \input{Conteudo/Pre_Prefacio}
+  \input{Conteudo/Pre_Nota_do_Tradutor}
+  \input{Conteudo/Pre_Glossario}
 
-\frontmatter
-\input{Conteudo/Pre_Prefacio}
-\input{Conteudo/Pre_Nota_do_Tradutor}
-\input{Conteudo/Pre_Glossario}
+  \mainmatter
+  \input{Conteudo/1_Equipamento}
+  \input{Conteudo/2_Regras}
+  \input{Conteudo/3_Ko}
+  \input{Conteudo/4_Fim_do_Jogo}
+  \input{Conteudo/5_Partidas_Exemplo}
+  \input{Conteudo/6_Estrategia_de_Abertura}
+  \input{Conteudo/7_Taticas_Elementares}
+  \input{Conteudo/8_Vida_e_Morte}
+  \input{Conteudo/9_Estrategia_de_Go_com_Compensacao}
+  \input{Conteudo/10_Niveis_e_Compensacoes}
+  \input{Conteudo/11_Movimentos_de_Fim_de_Jogo}
+  \input{Conteudo/12_Como_Continuar_os_Estudos}
 
-\mainmatter
-\input{Conteudo/1_Equipamento}
-\input{Conteudo/2_Regras}
-\input{Conteudo/3_Ko}
-\input{Conteudo/4_Fim_do_Jogo}
-\input{Conteudo/5_Partidas_Exemplo}
-\input{Conteudo/6_Estrategia_de_Abertura}
-\input{Conteudo/7_Taticas_Elementares}
-\input{Conteudo/8_Vida_e_Morte}
-\input{Conteudo/9_Estrategia_de_Go_com_Compensacao}
-\input{Conteudo/10_Niveis_e_Compensacoes}
-\input{Conteudo/11_Movimentos_de_Fim_de_Jogo}
-\input{Conteudo/12_Como_Continuar_os_Estudos}
+  \appendix
+  \addtocontents{toc}{\newpage\noindent\textbf{Apêndice}\par}
+  \input{Conteudo/Apendice_Catalogo_EN}
+  \input{Conteudo/Apendice_Catalogo_PT}
+  \input{Conteudo/Apendice_KGS}
 
-\appendix
-\addtocontents{toc}{\newpage\noindent\textbf{Apêndice}\par}
-\input{Conteudo/Apendice_Catalogo_EN}
-\input{Conteudo/Apendice_Catalogo_PT}
-\input{Conteudo/Apendice_KGS}
-
-\backmatter
-\bibliographystyle{unsrt}
-\bibliography{bibliografia}
-
+  \backmatter
+  \bibliographystyle{unsrt}
+  \bibliography{bibliografia}
 \end{document}
 %-------------------------------------------------------------------------------
