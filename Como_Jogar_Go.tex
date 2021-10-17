@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 \documentclass[11pt]{book}
 %-------------------------------------------------------------------------------
-% Packages
+% Pacotes
 
 % Tamanho Amazon mais próximo de A5:
 \usepackage[paperheight=  8.5in,
@@ -32,6 +32,7 @@
 
 \usepackage{graphicx}
 \graphicspath{
+  {./Recursos/}
   {./Diagramas EPS/1/}
   {./Diagramas EPS/2/}
   {./Diagramas EPS/3/}
@@ -91,18 +92,14 @@
 \setCJKmainfont[Kana]{MS Mincho}
 \setCJKmainfont[Hangul]{Batang} % É preciso instalar a fonte Batang no sistema
 %-------------------------------------------------------------------------------
-% Content
+% Conteúdo
 
 \begin{document}
   \input{Conteudo/Pagina_Titulo}
 
-  \cleardoublepage
-
   \shorttoc{Índice Resumido}{0}
   \addcontentsline{toc}{chapter}{Índice}
   \tableofcontents
-
-  \cleardoublepage
 
   \frontmatter
   \input{Conteudo/Pre_Prefacio}
