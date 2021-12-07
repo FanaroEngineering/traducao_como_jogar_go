@@ -7,14 +7,10 @@
 > **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
 
 <div style="display: inline-flex">
-  <figure>
-    <img src="Recursos/Screenshot_1%20-%20Capa.png" height="300px" />
-    <figcaption>Capa.</figcaption>
-  </figure>
-  <figure>
-    <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="300px" />
-    <figcaption>Índice Resumido.</figcaption>
-  </figure>
+  <img src="Recursos/Screenshot_1%20-%20Capa.png" height="350px" />
+  <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="350px" />
+  <img src="Recursos/Screenshot_3%20-%202%20-%20As%20Regras.png" height="350px" />
+  <img src="Recursos/Screenshot_4%20-%203%20-%20As%20Regras.png" height="350px" />
 </div>
 
 ---
