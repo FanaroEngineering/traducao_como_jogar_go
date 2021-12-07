@@ -4,7 +4,18 @@
 
 Àqueles que gostariam de construir mais material de Go, sintam-se à vontade para explorar este projeto como modelo, bom ou ruim; e também não hesitem em fazer perguntas!
 
-<!-- TODO: Screenshots do Livro aqui--->
+> **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
+
+<div style="display: inline-flex">
+  <figure>
+    <img src="Recursos/Screenshot_1%20-%20Capa.png" />
+    <figcaption>Capa.</figcaption>
+  </figure>
+  <figure>
+    <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" />
+    <figcaption>Índice Resumido.</figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -44,6 +55,7 @@ No livro, são citados links para recursos muito úteis para quem está começan
 - [fanaro.io](https://fanaro.io)
 - [Canal de YouTube do Philippe Fanaro](https://youtube.com/c/PhilippeFanaro)
 - [Canal de Twitch do Philippe Fanaro](https://twitch.tv/fanaro009)
+- [DOGemP &mdash; Dojo Online de Go em Português](https://baduk.club/league/dogemp)
 
 ## 2. Configurações do VS Code
 
