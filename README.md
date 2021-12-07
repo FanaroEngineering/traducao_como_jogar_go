@@ -7,10 +7,19 @@
 > **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
 
 <div style="display: inline-flex">
-  <img src="Recursos/Screenshot_1%20-%20Capa.png" height="350px" />
-  <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="350px" />
-  <img src="Recursos/Screenshot_3%20-%202%20-%20As%20Regras.png" height="350px" />
-  <img src="Recursos/Screenshot_4%20-%203%20-%20As%20Regras.png" height="350px" />
+  <img src="Recursos/Screenshot_1%20-%20Capa.png" height="400px" />
+  <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="400px" />
+  <img src="Recursos/Screenshot_3%20-%202%20-%20As%20Regras.png" height="400px" />
+  <img src="Recursos/Screenshot_4%20-%203%20-%20As%20Regras.png" height="400px" />
+  <img src="Recursos/Screenshot_5%20-%206%20-%20Estratégia%20de%20Abertura.png" height="400px" />
+  <img src="Recursos/Screenshot_6%20-%207%20-%20Táticas%20Elementares.png" height="400px" />
+  <img src="Recursos/Screenshot_7%20-%207%20-%20Problemas%2035-38.png" height="400px" />
+  <img src="Recursos/Screenshot_8%20-%208%20-%20Vida%20e%20Morte.png" height="400px" />
+  <img src="Recursos/Screenshot_9%20-%209%20-%20Go%20com%20Compensação.png" height="400px" />
+  <img src="Recursos/Screenshot_10%20-%2011%20-%20Movimentos%20de%20Fim%20de%20Jogo.png" height="400px" />
+  <img src="Recursos/Screenshot_11%20-%2012%20-%20Como%20Continuar%20os%20Estudos.png" height="400px" />
+  <img src="Recursos/Screenshot_12%20-%20B%20-%20Catálogo%20Kiseido%20em%20Português.png" height="400px" />
+  <img src="Recursos/Screenshot_13%20-%20Referências.png" height="400px" />
 </div>
 
 ---
