@@ -8,11 +8,11 @@
 
 <div style="display: inline-flex">
   <figure>
-    <img src="Recursos/Screenshot_1%20-%20Capa.png" />
+    <img src="Recursos/Screenshot_1%20-%20Capa.png" height="300px" />
     <figcaption>Capa.</figcaption>
   </figure>
   <figure>
-    <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" />
+    <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="300px" />
     <figcaption>Índice Resumido.</figcaption>
   </figure>
 </div>
