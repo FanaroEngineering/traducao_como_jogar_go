@@ -28,9 +28,11 @@ Translator: Philippe Fanaro
 
 ### Description
 
-Uma introdução completa e concisa ao ancestral jogo de Go, um jogo milenar extremamente simples de se aprender, porém com complexidade para milhares de vidas.
+Uma introdução completa e concisa ao ancestral, e ainda muito popular, jogo de Go, um jogo milenar extremamente simples de se aprender, porém com complexidade para milhares de vidas.
 
 Esta é uma tradução, para o português, de um dos livros mais básicos da editora Kiseido, que vem há décadas compartilhando conhecimento de Go do mais alto nível, em inglês.
+
+Este livro também está disponível gratuitamente em PDF, e foi desenvolvido totalmente código-aberto. Para mais informações, acesse: https://github.com/FanaroEngineering/traducao_como_jogar_go
 
 ### Publishing Rights
 
