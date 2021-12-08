@@ -24,6 +24,8 @@ Seguem algumas amostras abaixo:
   <img src="Recursos/Screenshot_13%20-%20Referências.png" height="400px" />
 </div>
 
+> Clique [aqui](amazon_kdp_metada.md) para visualizar os metadados utilizados no Amazon Kindle Direct Publishing.
+
 ---
 
 **Índice**
