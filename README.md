@@ -11,6 +11,8 @@ Seguem algumas amostras abaixo:
 <div style="display: inline-flex">
   <img src="Recursos/Screenshot_1%20-%20Capa.png" height="400px" />
   <img src="Recursos/Screenshot_2%20-%20Índice%20Resumido.png" height="400px" />
+  <img src="Recursos/Screenshot_2%20-%20Índice%20I.png" height="400px" />
+  <img src="Recursos/Screenshot_2%20-%20Índice%20II.png" height="400px" />
   <img src="Recursos/Screenshot_3%20-%202%20-%20As%20Regras.png" height="400px" />
   <img src="Recursos/Screenshot_4%20-%203%20-%20As%20Regras.png" height="400px" />
   <img src="Recursos/Screenshot_5%20-%206%20-%20Estratégia%20de%20Abertura.png" height="400px" />
