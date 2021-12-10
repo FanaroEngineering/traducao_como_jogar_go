@@ -52,9 +52,9 @@ Seguem algumas amostras abaixo:
 
 <div id="user-content-toc">
   <ul>
-    <li><a href="#1-links-uteis">1. Links Úteis</a></li>
-    <li><a href="#2-configuracões-do-vs-code">2. Configurações do VS Code</a></li>
-    <li><a href="#3-transpilaçãoo-das-referências">3. Transpilação das Referências</a></li>
+    <li><a href="#1-links-úteis">1. Links Úteis</a></li>
+    <li><a href="#2-configurações-do-vs-code">2. Configurações do VS Code</a></li>
+    <li><a href="#3-transpilação-das-referências">3. Transpilação das Referências</a></li>
     <li><a href="#4-inclusão-de-diagramas-de-go">4. Inclusão de Diagramas de Go</a>
       <ul>
         <li><a href="#41-diagramas-com-o-gowrite2">4.1. Diagramas com o GoWrite2</a></li>
