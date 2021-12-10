@@ -2,7 +2,9 @@
 
 <br/>
 
-<a href="https://www.buymeacoffee.com/psygo"><img src="Recursos/buy_me_a_coffee_shield.svg" alt="Buy Me A Coffee" /></a>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/psygo"><img src="Recursos/buy_me_a_coffee_shield.svg" alt="Buy Me A Coffee" /></a>
+</p>
 
 <br/>
 
@@ -10,7 +12,11 @@
 
 Àqueles que gostariam de construir mais material de Go, sintam-se à vontade para explorar este projeto como modelo, bom ou ruim; e também não hesitem em fazer perguntas!
 
-> **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
+<br/>
+
+---
+
+<blockquote align="center"> **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**</blockquote>
 
 **Links para comprar o livro**:
 
