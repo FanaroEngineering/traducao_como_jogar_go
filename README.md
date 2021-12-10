@@ -44,7 +44,7 @@ Seguem algumas amostras abaixo:
 
 <br/>
 
-> Clique [aqui](amazon_kdp_metada.md) para visualizar os metadados utilizados no Amazon Kindle Direct Publishing.
+> Clique [aqui](Recursos/Amazon_KDP_Metadados.md) para visualizar os metadados utilizados no Amazon Kindle Direct Publishing.
 
 ---
 
