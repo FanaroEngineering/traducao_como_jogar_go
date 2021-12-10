@@ -1,6 +1,10 @@
 # Tradução de "How to Play Go: A Concise Introduction", por Richard Bozulich e James Davies, da editora Kiseido
 
-<a href="https://www.buymeacoffee.com/psygo"><img src="assets/buy_me_a_coffee_shield.svg" alt="Buy Me A Coffee" /></a>
+<br/>
+
+<a href="https://www.buymeacoffee.com/psygo"><img src="Recursos/buy_me_a_coffee_shield.svg" alt="Buy Me A Coffee" /></a>
+
+<br/>
 
 > Obrigado ao Richard Bozulich e à editora Kiseido por me permitirem traduzir este livro.
 
