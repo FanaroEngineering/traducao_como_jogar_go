@@ -6,6 +6,14 @@
 
 > **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
 
+<strong style="color: orange">Links para comprar o livro</strong>:
+
+- [Amazon, com distribuição internacional limitada](https://www.amazon.com/dp/B09MZJY8RJ#detailBullets_feature_div)
+    - Os países/regiões disponíveis aparentemente: EUA, Reino Unido, Alemanha, França, Espanha, Itália, Japão, Canadá, Austrália.
+    - A impressão destes exemplares é feita sob demanda e administrada pela própria Amazon.
+- [Mercado Livre, administrado por mim, Philippe Fanaro, o autor]()
+- [Amazon.com.br, administrado por mim, Philippe Fanaro, o autor]()
+
 Seguem algumas amostras abaixo:
 
 <div style="display: inline-flex">
@@ -52,7 +60,7 @@ Seguem algumas amostras abaixo:
 
 ## 1. Links Úteis
 
-Primeiramente, seguem os links para o livro &mdash; por algum motivo não o encontrei listado na [loja online da Kiseido](https://www.kiseidopublishing.com/go_books.htm) &mdash;:
+Primeiramente, seguem os links para o livro original &mdash; por algum motivo não o encontrei listado na [loja online da Kiseido](https://www.kiseidopublishing.com/go_books.htm) &mdash;:
 
 - [How to Play Go no ISBN Search](https://isbnsearch.org/isbn/9784906574391)
 - [How to Play Go na Amazon](https://www.amazon.com/How-Play-Go-Concise-Introduction/dp/4906574394)
