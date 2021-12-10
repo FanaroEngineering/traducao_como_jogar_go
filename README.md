@@ -2,8 +2,6 @@
 
 ---
 
-<br/>
-
 <p align="center">
   <a href="https://www.buymeacoffee.com/psygo"><img src="Recursos/buy_me_a_coffee_shield.svg" alt="Buy Me A Coffee" /></a>
 </p>
@@ -14,7 +12,7 @@
 
 ---
 
-<blockquote align="center"> Clique <a href="https://github.com/FanaroEngineering/traducao_como_jogar_go/releases">aqui</a> para baixar o livro!**</blockquote>
+<blockquote> Clique <a href="https://github.com/FanaroEngineering/traducao_como_jogar_go/releases">aqui</a> para baixar o livro!</blockquote>
 
 **Links para comprar o livro**:
 
