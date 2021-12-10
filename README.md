@@ -52,16 +52,16 @@ Seguem algumas amostras abaixo:
 
 <div id="user-content-toc">
   <ul>
-    <li><a href="1-links-uteis">1. Links Úteis</a></li>
-    <li><a href="2-configuracoes-do-vs-code">2. Configurações do VS Code</a></li>
-    <li><a href="3-transpilacao-das-referencias">3. Transpilação das Referências</a></li>
-    <li><a href="4-inclusao-de-diagramas-de-go">4. Inclusão de Diagramas de Go</a>
+    <li><a href="#1-links-uteis">1. Links Úteis</a></li>
+    <li><a href="#2-configuracoes-do-vs-code">2. Configurações do VS Code</a></li>
+    <li><a href="#3-transpilacao-das-referencias">3. Transpilação das Referências</a></li>
+    <li><a href="#4-inclusao-de-diagramas-de-go">4. Inclusão de Diagramas de Go</a>
       <ul>
-        <li><a href="41-diagramas-com-o-gowrite2">4.1. Diagramas com o GoWrite2</a></li>
-        <li><a href="42-diagramas-com-o-pacote-latex-igo">4.2. Diagramas com o Pacote LaTeX <code>igo</code></a></li>
+        <li><a href="#41-diagramas-com-o-gowrite2">4.1. Diagramas com o GoWrite2</a></li>
+        <li><a href="#42-diagramas-com-o-pacote-latex-igo">4.2. Diagramas com o Pacote LaTeX <code>igo</code></a></li>
       </ul>
     </li>
-    <li><a href="5-formatacao-latex">5. Formatação LaTeX</a></li>
+    <li><a href="#5-formatacao-de-margens-com-latex">5. Formatação de Margens com LaTeX</a></li>
   </ul>
 </div>
 
@@ -125,6 +125,6 @@ Caso você esteja utilizando a distribuição MiKTeX, nem sequer é preciso inst
 
 Há também o pacote [`psgo`](https://www.ctan.org/pkg/psgo), mas é bem mais complicado e de difícil compilação.
 
-## 5. Formatação LaTeX
+## 5. Formatação de Margens com LaTeX
 
 Eu recomendo utilizar o pacote `geometry` para cuidar das bordas e margens. [Este link](https://techietalkntools.wordpress.com/2018/01/21/binding-offset-in-latex/) possui mais informações úteis, e o tópico também é discutido [neste problema do projeto](#1). Eu também salvei [o diagrama](Recursos/Formatação%20LaTeX.png) na pasta de recursos para que a informação não se perca caso o artigo original seja removido.
