@@ -6,7 +6,7 @@
 
 > **Clique [aqui](https://github.com/FanaroEngineering/traducao_como_jogar_go/releases) para baixar o livro!**
 
-<strong style="color: orange">Links para comprar o livro</strong>:
+<span color="color: orange"><strong>Links para comprar o livro</strong></span>:
 
 - [Amazon, com distribuição internacional limitada](https://www.amazon.com/dp/B09MZJY8RJ#detailBullets_feature_div)
     - Os países/regiões disponíveis aparentemente: EUA, Reino Unido, Alemanha, França, Espanha, Itália, Japão, Canadá, Austrália.
