@@ -19,7 +19,7 @@
 - [**Amazon**, com distribuição internacional limitada](https://www.amazon.com/dp/B09MZJY8RJ#detailBullets_feature_div)
     - Os países/regiões disponíveis aparentemente: EUA, Reino Unido, Alemanha, França, Espanha, Itália, Japão, Canadá, Austrália.
     - A impressão destes exemplares é feita sob demanda e administrada pela própria Amazon.
-- [**Mercado Livre**, administrado por mim, Philippe Fanaro, o autor]()
+- [**Mercado Livre**, administrado por mim, Philippe Fanaro, o autor](https://produto.mercadolivre.com.br/MLB-2116082750-como-jogar-go-uma-introduco-concisa-_JM)
 - [**Amazon.com.br**, administrado por mim, Philippe Fanaro, o autor]()
 
 Seguem algumas amostras abaixo:
