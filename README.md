@@ -16,11 +16,12 @@
 
 **Links para comprar o livro**:
 
-- [**Amazon**, com distribuição internacional limitada](https://www.amazon.com/dp/B09MZJY8RJ#detailBullets_feature_div)
+- [**Amazon**, com distribuição internacional limitada](https://www.amazon.com/dp/B09MZJY8RJ)
     - Os países/regiões disponíveis aparentemente: EUA, Reino Unido, Alemanha, França, Espanha, Itália, Japão, Canadá, Austrália.
     - A impressão destes exemplares é feita sob demanda e administrada pela própria Amazon.
 - [**Mercado Livre**, administrado por mim, Philippe Fanaro, o autor](https://produto.mercadolivre.com.br/MLB-2116082750-como-jogar-go-uma-introduco-concisa-_JM)
-- [**Amazon.com.br**, administrado por mim, Philippe Fanaro, o autor](https://www.amazon.com.br/dp/B09MZJY8RJ)
+- ~~[**Amazon.com.br**, administrado por mim, Philippe Fanaro, o autor](https://www.amazon.com.br/dp/B09MZJY8RJ)~~
+    - Houve um problema com o cálculo de frete. Por enquanto, o anúncio pela Amazon BR não estará disponível.
 
 Seguem algumas amostras abaixo:
 
