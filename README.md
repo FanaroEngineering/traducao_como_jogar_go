@@ -23,6 +23,11 @@
 - ~~[**Amazon.com.br**, administrado por mim, Philippe Fanaro, o autor](https://www.amazon.com.br/dp/B09MZJY8RJ)~~
     - Houve um problema com o cálculo de frete. Por enquanto, o anúncio pela Amazon BR não estará disponível.
 
+Outros links úteis:
+
+- [O livro no GoodReads](https://www.goodreads.com/book/show/60164524-como-jogar-go)
+- [Vídeo no meu canal apresentando o livro](https://youtu.be/O1PJjHZ6wXQ)
+
 Seguem algumas amostras abaixo:
 
 <div style="display: inline-flex">
