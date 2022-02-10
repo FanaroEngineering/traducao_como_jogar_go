@@ -27,6 +27,7 @@ Outros links úteis:
 
 - [O livro no GoodReads](https://www.goodreads.com/book/show/60164524-como-jogar-go)
 - [Vídeo no meu canal apresentando o livro](https://youtu.be/O1PJjHZ6wXQ)
+- Para aqueles curiosos sobre o diagrama da capa, [aqui](https://youtu.be/41MSBjL5qu4) está a aula em que eu a explico.
 
 Seguem algumas amostras abaixo:
 
