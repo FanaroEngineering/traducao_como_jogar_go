@@ -22,6 +22,8 @@
 - [**Mercado Livre**, administrado por mim, Philippe Fanaro, o autor](https://produto.mercadolivre.com.br/MLB-2116082750-como-jogar-go-uma-introduco-concisa-_JM)
 - ~~[**Amazon.com.br**, administrado por mim, Philippe Fanaro, o autor](https://www.amazon.com.br/dp/B09MZJY8RJ)~~
     - Houve um problema com o cálculo de frete. Por enquanto, o anúncio pela Amazon BR não estará disponível.
+ 
+> Não consegui ainda colocar o livro disponível via Kindle diretamente. Mas você pode [mandar para o Kindle](https://www.amazon.com.br/sendtokindle) o PDF disponível neste repositório, o que funciona muito melhor do que o esperado.
 
 Outros links úteis:
 
